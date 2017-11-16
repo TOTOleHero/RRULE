@@ -1,0 +1,215 @@
+/* ========================================================================
+*         Copyright © 2008 Dominique Lacerte, All Rights Reserved.
+*  
+*  Redistribution and use in source and binary forms are prohibited without 
+*    prior written consent from Dominique Lacerte (internet@lacerte.org).
+*  ======================================================================== */
+
+body
+{
+	margin:0;
+	padding:0;
+	height:100%; /* this is the key to using height percentages in elements! */
+	font-family: arial;
+}
+
+#page
+{
+	width: 98%;
+	margin: 0px auto;
+	border: 1px solid gray;
+	background-color: #e8f8ff;
+}
+
+#page_header
+{
+	padding: 10px;
+	border-bottom: 1px solid gray;
+	background-color: #efefe0;
+}
+
+#page_left
+{
+	float: left;
+	width: 23%;
+	margin: 0;
+	border-left: #cccccc 1px solid;
+	border-top: #cccccc 1px solid;
+	border-right: #cccccc 1px solid;
+	border-bottom: #cccccc 1px solid;
+	font-size: 0.8em;
+}
+
+#page_left_scrolling
+{
+	overflow: auto;
+}
+
+#page_center
+{
+	margin-left: 23.3%;
+	width: 76.2%;	/* if I made this more IE would bump the page_center to below the page_left */
+	border-left: 1px solid gray;
+	background-color: #ffffff;
+}
+
+#page_center_scrolling
+{
+}
+
+#page_footer
+{
+	padding: 10px;
+	border-top: 1px solid gray;
+	background-color: #efefe0;
+}
+
+
+#message_bar
+{
+	margin-top: 2px;
+	font-size: 1.5em;
+	background-color: #ffe8e8;
+	border-right: 1px solid red;
+	border-top: 1px solid red;
+	border-left: 1px solid red;
+	border-bottom: 1px solid red;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+}
+
+#page_addons
+{
+	float: top;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	font-size: 0.8em;
+}
+
+.helper_info
+{
+	color: #909020;
+}
+
+.addon
+{
+	margin:0;
+	padding:0;
+	border-left: #cccccc 1px solid;
+	border-top: #cccccc 1px solid;
+	border-right: #cccccc 1px solid;
+	border-bottom: #cccccc 1px solid;
+	background-color: #e8f8ff;
+}
+
+
+.body_content
+{
+/*	width: 100%; */
+}
+
+.header
+{
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	font-weight: bold;
+	background-color: #e8f8ff;
+	border-left: #cccccc 1px solid;
+	border-top: #cccccc 1px solid;
+	border-right: #cccccc 1px solid;
+	border-bottom: #cccccc 1px solid;
+}
+
+.shaded
+{
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	background-color: #e8f8ff;
+	border-left: #cccccc 1px solid;
+	border-top: #cccccc 1px solid;
+	border-right: #cccccc 1px solid;
+	border-bottom: #cccccc 1px solid;
+}
+
+.box
+{
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	background-color: #cfffcf;
+}
+
+.selected
+{
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	background-color: #ececec;
+	border-left: #cccccc 1px solid;
+	border-top: #cccccc 1px solid;
+	border-right: #cccccc 1px solid;
+	border-bottom: #cccccc 1px solid;
+}
+
+.showhidetoggle
+{
+	cursor: pointer;
+}
+
+.error
+{
+	margin-top: 2px;
+	font-size: 1.5em;
+	background-color: #ffe8e8;
+	border-right: 1px solid red;
+	border-top: 1px solid red;
+	border-left: 1px solid red;
+	border-bottom: 1px solid red;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+}
+
+.footer_content
+{
+	width: 100%;
+}
+
+table.borderless_table
+{
+	padding: 0px;
+	border: none;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-bottom-width: 0px;
+	border-right-width: 0px
+}
+
+table td.table_header
+{
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	font-weight: bold;
+	border-left: #cccccc 1px solid;
+	border-top: #cccccc 1px solid;
+	border-right: #cccccc 1px solid;
+	border-bottom: #cccccc 1px solid;
+}
+
+table tr.table_header
+{
+	background-color: #e8f8ff;
+}

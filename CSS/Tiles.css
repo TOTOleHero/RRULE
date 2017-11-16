@@ -1,0 +1,226 @@
+/* we aim to display the tiles in a 3x4 arrangement on portrait screens and 4x3 on landscape screens,
+   and we also try not to show them so large that you need to scroll vertically too much on a
+   resizable browser window that has been set very short */
+
+.tile_button
+{
+   display:inline-block;
+   
+   vertical-align: top;
+   
+/*   text-transform:uppercase; */
+   text-align: center;
+   font-size: 75%;
+   
+   box-sizing:border-box;
+   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+
+   border-radius: 4px;
+   transition:all 0.5s;
+
+   /* palette items... */
+   color:#ffffff;
+   background-color: #25aae1;
+}
+
+.tile_button:hover
+{
+   opacity:1;
+   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+   
+   /* palette items... */
+   color:#ffffff;
+   background: #1493c7;
+}
+
+.tile_icon
+{
+   display:block;
+}
+
+.limit_tiles_width
+{
+   width: 100%;
+   margin: 0 auto;
+}
+
+
+@media screen and (orientation: portrait)
+{
+   .tile_button
+   {
+      width: 30%;
+   }
+}
+
+@media screen and (orientation: landscape)
+{
+   .tile_button
+   {
+      width: 22%;
+   }
+}
+
+/* default is mobile sized screen */
+
+.tile_button
+{
+   max-width: 125px;
+   height: 103px;
+   padding: 5px 5px;
+   margin: 5px 1% 3px;
+}
+
+.tile_icon
+{
+   width: 40px;
+   height: 40px;
+   margin: 2px auto 2px;
+}
+
+.limit_tiles_width
+{
+   max-width: 550px;
+}
+
+@media screen and (orientation: portrait)       /* iPhone in landscape mode needed shorter tiles to fit 3 rows */
+{
+   .tile_button
+   {
+      height: 115px;
+      padding: 7px 5px;
+      margin: 7px 1% 3px;
+   }
+   
+   .tile_icon
+   {
+      margin: 10px auto 5px;
+   }
+}
+
+@media screen and (min-width: 50em) and (min-height: 30em) and (orientation: portrait),
+       screen and (min-height: 50em) and (min-width: 30em) and (orientation: portrait)
+{
+   .tile_button
+   {
+      /* when the size gets a little larger we bump up the percentage because we need less spacing */
+      width: 32%;
+   }
+}
+
+@media screen and (min-width: 50em) and (min-height: 30em) and (orientation: landscape),
+       screen and (min-height: 50em) and (min-width: 30em) and (orientation: landscape)
+{
+   .tile_button
+   {
+      /* when the size gets a little larger we bump up the percentage because we need less spacing */
+      width: 24%;
+   }
+}
+
+@media screen and (min-width: 50em) and (min-height: 30em),       /* small tablet in landscape mode */
+       screen and (min-height: 50em) and (min-width: 30em)
+{
+   .tile_button
+   {
+      max-width: 170px;
+      height: 130px;
+      padding: 10px 7px;
+      margin: 10px 1% 4px;
+   }
+   
+   .tile_icon
+   {
+      width: 50px;
+      height: 50px;
+      margin: 15px auto 7px;
+   }
+   
+   .limit_tiles_width
+   {
+      max-width: 800px;
+   }
+}
+
+/* above needed shorter tiles to fit 3 rows, so bump up the height a little in portrait mode */
+@media screen and (min-width: 50em) and (min-height: 30em) and (orientation: portrait),
+       screen and (min-height: 50em) and (min-width: 30em) and (orientation: portrait)
+{
+   .tile_button
+   {
+      height: 150px;
+   }
+}
+
+@media screen and (min-width: 72em) and (min-height: 40em),
+       screen and (min-height: 72em) and (min-width: 40em)
+{
+   .tile_button
+   {
+      font-size: 80%;
+      max-width: 200px;
+      height: 180px;
+      padding: 15px;
+      margin: 10px;
+   }
+   
+   .tile_icon
+   {
+      width: 70px;
+      height: 70px;
+      margin: 20px auto 20px;
+   }
+   
+   .limit_tiles_width
+   {
+      max-width: 1000px;
+   }
+}
+
+/* above needed shorter tiles to fit 3 rows, so bump up the height (and a few other things) a little in portrait mode */
+@media screen and (min-width: 72em) and (min-height: 40em) and (orientation: portrait),
+       screen and (min-height: 72em) and (min-width: 40em) and (orientation: portrait)
+{
+   .tile_button
+   {
+      max-width: 230px;
+      height: 210px;
+   }
+
+   .tile_icon
+   {
+      width: 80px;
+      height: 80px;
+   }
+}
+
+@media screen and (min-width: 75em) and (min-height: 48em),
+       screen and (min-height: 75em) and (min-width: 48em)
+{
+   .tile_button
+   {
+      max-width: 300px;
+      height: 230px;
+   }
+   
+   .tile_icon
+   {
+      width: 100px;
+      height: 100px;
+   }
+   
+   .limit_tiles_width
+   {
+      max-width: 1400px;
+   }
+}
+
+/* above needed shorter tiles to fit 3 rows, so bump up the height a little in portrait mode */
+@media screen and (min-width: 75em) and (min-height: 48em) and (orientation: portrait),
+       screen and (min-height: 75em) and (min-width: 48em) and (orientation: portrait)
+{
+   .tile_button
+   {
+      height: 250px;
+   }
+}

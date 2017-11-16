@@ -1,0 +1,397 @@
+.FunnelType_Start
+{
+   background-image: url('/Images/NetBizBoom/Start.png');
+}
+.FunnelType_End
+{
+   background-image: url('/Images/NetBizBoom/End.png');
+}
+/*
+.FunnelType_Split
+{
+   background-image: url('/Images/NetBizBoom/Split.png');
+}
+.FunnelType_Merge
+{
+   background-image: url('/Images/NetBizBoom/Merge.png');
+}
+.FunnelType_Begin
+{
+   background-image: url('/Images/NetBizBoom/Begin.png');
+}
+.FunnelType_Wait
+{
+   background-image: url('/Images/NetBizBoom/Wait.png');
+}
+*/
+.FunnelType_Jump
+{
+   background-image: url('/Images/NetBizBoom/Jump.png');
+}
+.FunnelType_Delay
+{
+   background-image: url('/Images/NetBizBoom/Delay.png');
+}
+.FunnelType_Tag
+{
+   background-image: url('/Images/NetBizBoom/Tag.png');
+}
+.FunnelType_Untag
+{
+   background-image: url('/Images/NetBizBoom/Untag.png');
+}
+.FunnelType_Subscribe
+{
+   background-image: url('/Images/NetBizBoom/Subscribe.png');
+}
+.FunnelType_Unsubscribe
+{
+   background-image: url('/Images/NetBizBoom/Unsubscribe.png');
+}
+.FunnelType_Email
+{
+   background-image: url('/Images/NetBizBoom/Email.png');
+}
+.FunnelType_WebPage
+{
+   background-image: url('/Images/NetBizBoom/WebPage.png');
+}
+.FunnelType_Goal
+{
+   background-image: url('/Images/NetBizBoom/Goal.png');
+}
+.FunnelType_Task
+{
+   background-image: url('/Images/NetBizBoom/Task.png');
+}
+.FunnelType_UpdateContact
+{
+   background-image: url('/Images/NetBizBoom/UpdateContact.png');
+}
+.FunnelType_UpdateSpreadsheet
+{
+   background-image: url('/Images/NetBizBoom/UpdateSpreadsheet.png');
+}
+.FunnelType_SetLevel
+{
+   background-image: url('/Images/NetBizBoom/Split.png');
+}
+.FunnelType_ProcessPayment
+{
+   background-image: url('/Images/NetBizBoom/ProcessPayment.png');
+}
+.FunnelType_SavePaymentInfo
+{
+   background-image: url('/Images/NetBizBoom/SavePaymentInfo.png');
+}
+
+
+.funnel_selected_item 
+{
+   opacity: 0.5;
+}
+.funnel_table_grid
+{
+   border-collapse: collapse;
+   border-spacing: 0;
+   border-width: 1px;
+   border-style: solid;
+   text-align: center;
+   
+   /* palette items... */
+   border-color: #ccc;
+}
+.funnel_table_grid td
+{
+   border-width: 1px;
+   border-style: solid;
+   
+   /* palette items... */
+   border-color: #ccc;
+}
+.funnel_table_grid td > div
+{
+   display: table-cell;   /* required for vertical-align */
+   width: 100px;
+   height: 60px;
+   text-align: center;
+   vertical-align: middle;
+}
+.funnel_data_cell
+{
+   min-width: 100px;
+   height: 60px;
+
+   /* palette items... */
+   background-color: #eee;
+}
+.funnel_spacer_cell
+{
+   min-width: 60px;
+   height: 60px;
+}
+/* these are the flowchart palette items on the toolbar */
+#nodes div > div
+{
+   display: inline-block;
+   min-width: 50px;
+   height: 30px;
+
+   line-height: 75%;
+   font-size: 75%;
+   text-align: center;
+   white-space: normal;
+   vertical-align: middle;
+   background-size: 50px 30px;
+
+   /* palette items... */
+   color: #000;
+}
+div.funnel_selected_container, td.funnel_selected_container 
+{
+   background-color: #77c866;
+}
+
+.demo {
+    /* for IE10+ touch devices */
+    touch-action:none;
+}
+
+.w {
+    padding: 16px;
+    position: absolute;
+    z-index: 4;
+    border: 1px solid #2e6f9a;
+    box-shadow: 2px 2px 19px #e0e0e0;
+    -o-box-shadow: 2px 2px 19px #e0e0e0;
+    -webkit-box-shadow: 2px 2px 19px #e0e0e0;
+    -moz-box-shadow: 2px 2px 19px #e0e0e0;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    opacity: 0.8;
+    cursor: move;
+    background-color: white;
+    font-size: 12px;
+    font-weight: bold;
+    -webkit-transition: background-color 0.25s ease-in;
+    -moz-transition: background-color 0.25s ease-in;
+    transition: background-color 0.25s ease-in;
+}
+
+.w:hover {
+    background-color: #5c96bc;
+    color: white;
+
+}
+
+.aLabel {
+    -webkit-transition: background-color 0.25s ease-in;
+    -moz-transition: background-color 0.25s ease-in;
+    transition: background-color 0.25s ease-in;
+}
+
+.aLabel.jtk-hover, .jtk-source-hover, .jtk-target-hover {
+    background-color: #1e8151;
+    color: white;
+}
+
+.aLabel {
+    background-color: white;
+    opacity: 0.8;
+    padding: 0.3em;
+    border-radius: 0.5em;
+    border: 1px solid #346789;
+    cursor: pointer;
+}
+
+.ep {
+    position: absolute;
+    bottom: 37%;
+    top: -20px;
+    right: -20px;
+    width: 2em;
+    height: 2em;
+    background-color: orange;
+    cursor: pointer;
+    box-shadow: 0 0 2px black;
+    -webkit-transition: -webkit-box-shadow 0.25s ease-in;
+    -moz-transition: -moz-box-shadow 0.25s ease-in;
+    transition: box-shadow 0.25s ease-in;
+}
+
+.ep:hover {
+    box-shadow: 0 0 6px black;
+}
+
+.statemachine-demo .jtk-endpoint {
+    z-index: 3;
+}
+
+#opened {
+    left: 10em;
+    top: 5em;
+}
+
+#phone1 {
+    left: 35em;
+    top: 12em;
+    width: 7em;
+}
+
+#inperson {
+    left: 12em;
+    top: 23em;
+}
+
+#phone2 {
+    left: 28em;
+    top: 24em;
+}
+
+#rejected {
+    left: 10em;
+    top: 35em;
+}
+
+.dragHover {
+    border: 2px solid orange;
+}
+
+path, .jtk-endpoint { cursor:pointer; }
+
+.Node {
+    display: inline-block;
+    min-width: 50px;
+    height: 30px;
+    line-height: 75%;
+    font-size: 75%;
+    font-weight: bold;
+    text-align: center;
+    white-space: normal;
+    vertical-align: middle;
+    background-size: 100% 100%;
+    padding: 4px;
+    color: #000;    
+}
+
+.NodeText {
+    width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.CanvasNode {
+    position: absolute;
+    padding: 8px;
+}
+
+.PaletteNode {
+    margin: 4px;
+    width: 50px;
+}
+
+.palette {
+    border: 2px black solid !important;
+    background: linear-gradient(#9CDEFF, #83c3f3);
+    margin-bottom: 4px;
+ }
+
+ #canvas {
+    background-color: #eee;
+ }
+
+ .collapsed .palette-group-content {
+    display: none;
+}
+
+#right {
+    width: 145px;
+    float: right; 
+    padding: 5px;    
+}
+
+#canvas {
+    width: calc(100% - 160px);
+    float: left;
+    height: 100%;
+    min-height: 500px;
+}
+
+body #content_wrapper {
+   padding-top: 0;
+}
+
+#content_wrapper {
+   min-height: 0;
+   padding: 0;
+}
+
+.row {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+}
+
+#canvas.jsplumb-canvas {
+   width: auto;
+   float: none;
+   max-height: none;
+   margin: 0;
+   overflow: hidden!important;
+}
+
+.canvas-col {
+   -webkit-box-flex: 1;
+   -ms-flex-positive: 1;
+   flex-grow: 1;
+}
+
+.sidebar-col {
+   -ms-flex-preferred-size: 145px;
+   flex-basis: 145px;
+}
+
+/* Full viewport height */
+#right.jsplumb-right-sidebar,
+#canvas.jsplumb-canvas {
+   /*navbar height 40px*/
+   height: calc(100vh - 40px);
+   min-height: 0;
+}
+
+#right.jsplumb-right-sidebar {
+   width: auto;
+   padding: 0;
+   float: none;
+   overflow: auto;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+/* DRL FIXIT? hide the vertical scrollbar that appears for some reason */
+body {
+   overflow: hidden;
+}
+
+.PaletteNode {
+   cursor: pointer;
+}
+
+.node_delete {
+    position: absolute;
+    bottom: 37%;
+    top: -15px;
+    right: -35px;
+    width: 10px;
+    height: 10px;
+    background-image: url('/Images/Common/RemoveIcon.png');
+    background-size: 10px 10px;
+    vertical-align: middle;
+    cursor: pointer;
+    box-shadow: 0 0 2px black;
+    -webkit-transition: -webkit-box-shadow 0.25s ease-in;
+    -moz-transition: -moz-box-shadow 0.25s ease-in;
+    transition: box-shadow 0.25s ease-in;
+}

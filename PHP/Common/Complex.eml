@@ -1,0 +1,147 @@
+Return-Path: <>
+Delivered-To: calendar@netbizboom.com
+Received: from cs13.uhcloud.com
+	by cs13.uhcloud.com (Dovecot) with LMTP id idMPDY4sW1mmdQoAa6gPJA
+	for <calendar@netbizboom.com>; Tue, 04 Jul 2017 01:50:06 -0400
+Return-path: <>
+Envelope-to: calendar@netbizboom.com
+Delivery-date: Tue, 04 Jul 2017 01:50:06 -0400
+Received: from mailnull by cs13.uhcloud.com with local (Exim 4.89)
+	id 1dSGis-002slo-5K
+	for calendar@netbizboom.com; Tue, 04 Jul 2017 01:50:06 -0400
+X-Failed-Recipients: JoeCustomer1234@hotmail.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@cs13.uhcloud.com>
+To: calendar@netbizboom.com
+Content-Type: multipart/report; report-type=delivery-status; boundary=1499147406-eximdsn-708109340
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1dSGis-002slo-5K@cs13.uhcloud.com>
+Date: Tue, 04 Jul 2017 01:50:06 -0400
+
+--1499147406-eximdsn-708109340
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  JoeCustomer1234@hotmail.com
+    host mx3.hotmail.com [104.44.194.237]
+    SMTP error from remote mail server after RCPT TO:<JoeCustomer1234@hotmail.com>:
+    550 Requested action not taken: mailbox unavailable
+
+
+--1499147406-eximdsn-708109340
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; cs13.uhcloud.com
+
+Action: failed
+Final-Recipient: rfc822;JoeCustomer1234@hotmail.com
+Status: 5.0.0
+Remote-MTA: dns; mx3.hotmail.com
+Diagnostic-Code: smtp; 550 Requested action not taken: mailbox unavailable
+
+
+--1499147406-eximdsn-708109340
+Content-type: message/rfc822
+
+Return-path: <calendar@netbizboom.com>
+Received: from [192.81.170.13] (port=55429 helo=netbizboom.com)
+	by cs13.uhcloud.com with esmtpsa (TLSv1:ECDHE-RSA-AES256-SHA:256)
+	(Exim 4.89)
+	(envelope-from <calendar@netbizboom.com>)
+	id 1dSGir-002slg-Ey
+	for JoeCustomer1234@hotmail.com; Tue, 04 Jul 2017 01:50:05 -0400
+Date: Mon, 3 Jul 2017 22:50:05 -0700
+To: Joe Customer <JoeCustomer1234@hotmail.com>
+From: Calendar Manager <calendar@netbizboom.com>
+Reply-To: Calendar Manager <calendar@netbizboom.com>
+Subject: Example Business Party
+Message-ID: <dc1a29c88853c0ab89ff2b8db30a5e5c@netbizboom.com>
+X-Mailer: PHPMailer 5.2.15 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_dc1a29c88853c0ab89ff2b8db30a5e5c"
+Content-Transfer-Encoding: 8bit
+
+This is a multi-part message in MIME format.
+
+--b1_dc1a29c88853c0ab89ff2b8db30a5e5c
+Content-Type: text/plain; charset=us-ascii
+
+
+
+You have been invited to the attached event. You are receiving this courtesy email because you have been invited to this event. To stop receiving future updates for this event, decline the event. Forwarding this invitation could allow any recipient to modify your RSVP response.
+
+
+--b1_dc1a29c88853c0ab89ff2b8db30a5e5c
+Content-Type: text/html; charset=us-ascii
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<BR>
+<BR>
+You have been invited to the attached event. You are receiving this courtesy email because you have been invited to this event. To stop receiving future updates for this event, decline the event. Forwarding this invitation could allow any recipient to modify your RSVP response.
+</body>
+</html>
+
+
+--b1_dc1a29c88853c0ab89ff2b8db30a5e5c
+Content-Type: text/calendar; method=REQUEST; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+
+BEGIN:VCALENDAR
+METHOD:REQUEST
+VERSION:2.0
+BEGIN:VEVENT
+ATTENDEE;CN=Joe Customer;ROLE=OPT-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=TR
+ UE:MAILTO:JoeCustomer1234@hotmail.com
+DTSTAMP:20170703T214514Z
+DTSTART:20170724T214514Z
+LAST-MODIFIED:20170703T214514Z
+ORGANIZER;CN=Dominique Lacerte:MAILTO:calendar@netbizboom.com
+STATUS:CONFIRMED
+SUMMARY:Example Business Party
+UID:4300
+END:VEVENT
+END:VCALENDAR
+
+
+
+--b1_dc1a29c88853c0ab89ff2b8db30a5e5c--
+
+
+
+--1499147406-eximdsn-708109340
+Content-type: multipart/alternative
+
+
+
+You have been invited to the attached event. You are receiving this courtesy email because you have been invited to this event. To stop receiving future updates for this event, decline the event. Forwarding this invitation could allow any recipient to modify your RSVP response.
+
+
+
+--1499147406-eximdsn-708109340
+Content-type: text/plain; charset=us-ascii
+
+
+
+--1499147406-eximdsn-708109340
+Content-type: text/html; charset=us-ascii
+
+
+
+--1499147406-eximdsn-708109340
+Content-type: text/calendar; charset=iso-8859-1
+
+
+
+--1499147406-eximdsn-708109340--

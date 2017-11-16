@@ -1,0 +1,42 @@
+.blog_children,
+.forum_children,
+.discussion_children,
+.comment_children
+{
+}
+
+/* these items are flat */
+.forum_child
+{
+}
+
+/* these items "nest" in a tree structure so we indent each consecutive level */
+.blog_child,   /* this is here for the comments that appear as children */
+.discussion_child, 
+.comment_child
+{
+   padding-left: 20px;
+}
+
+.post
+{
+	border-width: 1px;
+	border-style: solid;
+}
+
+.post_displayname
+{
+   font-style: italic;
+   display: inline-block;
+   width: 20%;
+}
+
+.post_subject
+{
+   font-weight: bold;
+}
+
+.post_date
+{
+   float: right;
+}

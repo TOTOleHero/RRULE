@@ -1,0 +1,60 @@
+body {
+   /* On iPhone OS, when you touch and hold a touch target such as a link, Safari displays a callout 
+   containing information about the link. This property allows you to disable that callout. */
+	-webkit-touch-callout: none !important;
+}
+
+span {
+   /* Determines whether a user can select the content of an element. */
+	-webkit-user-select: none !important;
+}
+/*
+span img {
+	pointer-events: none;
+}
+*/
+/* Links and images are draggable by default, we also turn on draggable as needed. */
+[draggable] {
+   /* Determines whether a user can select the content of an element. */
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.editable_tree
+{
+   /* we must leave space on the right to allow the scrolling of the page */
+   width: 85%;
+}
+
+/*
+.edittree_selecteditem {
+	border: solid;
+}
+*/
+.edittree_draggable, .edittree_draggable_templated {
+	cursor: pointer;
+}
+/*
+span.drag {
+	position: absolute;
+	opacity: 0.8;
+	cursor: pointer;
+	z-index: -100;
+}
+*/
+/*
+.edittree_droptarget {
+	border: 2px dashed #000;
+}
+*/
+.editable_tree ul { 
+	list-style-type: none; 
+	text-align: left;
+}
+
+.editable_tree ul li ul {
+	position: relative;
+	padding-left: 40px;
+}
