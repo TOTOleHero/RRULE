@@ -17,6 +17,7 @@ require_once(dirname(__FILE__) . '/RecurrenceRuleIteratorInfo.php');
 require_once(dirname(__FILE__) . '/RecurrenceRuleParser.php');
 require_once(dirname(__FILE__) . '/RecurrenceRuleSet.php');
 
+//echo "XYZ";
 class RecurrenceRule
 {
 	private static $Debug = 1;			// set to 1 in order to perform some extra checking to help catch errors
@@ -1291,7 +1292,7 @@ class RecurrenceRule
 // ===================================================================
 
 $testStartDate = DateAndTime::FromString("2011/05/01 12:01:02 Z");
-
+// Checking the Exdate
 if (0)
 {
 	$iCal = iCalEvent::FromString(

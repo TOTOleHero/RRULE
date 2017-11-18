@@ -1,0 +1,24 @@
+2017-11-16 18:44:30 [BEGIN TRACE: ERROR: Date '2011/07/31 12:01:02 GMT' doesn't match '2011/06/30 12:01:02 GMT' for RRULE:FREQ=MONTHLY;COUNT=8;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1!
+]
+2017-11-16 18:44:30 <PHP/Common/RecurrenceRule.php> on line 1378 in method RecurrenceRule::_CheckValues()
+2017-11-16 18:44:30   <PHP/Common/RecurrenceRule.php> on line 1059 in function WriteDie()
+2017-11-16 18:44:30     <PHP/Common/Log.php> on line 291 in function WriteCallStack()
+2017-11-16 18:44:30 [END TRACE]
+2017-11-16 18:44:32 [BEGIN TRACE: ERROR: Date '2011/07/31 12:01:02 GMT' doesn't match '2011/06/30 12:01:02 GMT' for RRULE:FREQ=MONTHLY;COUNT=8;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1!
+]
+2017-11-16 18:44:32 <PHP/Common/RecurrenceRule.php> on line 1378 in method RecurrenceRule::_CheckValues()
+2017-11-16 18:44:32   <PHP/Common/RecurrenceRule.php> on line 1059 in function WriteDie()
+2017-11-16 18:44:32     <PHP/Common/Log.php> on line 291 in function WriteCallStack()
+2017-11-16 18:44:32 [END TRACE]
+2017-11-16 18:46:46 [BEGIN TRACE: ERROR: Date '2011/07/31 12:01:02 GMT' doesn't match '2011/06/30 12:01:02 GMT' for RRULE:FREQ=MONTHLY;COUNT=8;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1!
+]
+2017-11-16 18:46:46 <PHP/Common/RecurrenceRule.php> on line 1378 in method RecurrenceRule::_CheckValues()
+2017-11-16 18:46:46   <PHP/Common/RecurrenceRule.php> on line 1059 in function WriteDie()
+2017-11-16 18:46:46     <PHP/Common/Log.php> on line 291 in function WriteCallStack()
+2017-11-16 18:46:46 [END TRACE]
+2017-11-16 18:47:23 [BEGIN TRACE: ERROR: Date '2011/07/31 12:01:02 GMT' doesn't match '2011/06/30 12:01:02 GMT' for RRULE:FREQ=MONTHLY;COUNT=8;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1!
+]
+2017-11-16 18:47:23 <PHP/Common/RecurrenceRule.php> on line 1378 in method RecurrenceRule::_CheckValues()
+2017-11-16 18:47:23   <PHP/Common/RecurrenceRule.php> on line 1059 in function WriteDie()
+2017-11-16 18:47:23     <PHP/Common/Log.php> on line 291 in function WriteCallStack()
+2017-11-16 18:47:23 [END TRACE]
