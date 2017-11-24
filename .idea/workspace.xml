@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3118ac85-7607-4e69-bda1-f8658ab6828b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PHP/Common/RecurrenceRule.php" afterPath="$PROJECT_DIR$/PHP/Common/RecurrenceRule.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PHP/debug.log" afterPath="$PROJECT_DIR$/PHP/debug.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Index.htm" afterPath="$PROJECT_DIR$/Index.htm" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,36 +13,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RecurrenceRule.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PHP/Common/RecurrenceRule.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="666">
-              <caret line="1372" column="0" lean-forward="true" selection-start-line="1372" selection-start-column="0" selection-end-line="1372" selection-end-column="0" />
-              <folding>
-                <element signature="n#FromString#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
-                <element signature="n#FromRules#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
-                <element signature="n#FromEvent#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
-                <element signature="e#32840#32910#0#PHP" expanded="false" />
-                <element signature="e#33145#33519#0#PHP" expanded="false" />
-                <element signature="e#33521#34306#0#PHP" expanded="false" />
-                <element signature="e#34689#34973#0#PHP" expanded="false" />
-                <element signature="e#34989#35273#0#PHP" expanded="false" />
-                <element signature="e#35278#35620#0#PHP" expanded="false" />
-                <element signature="e#35626#36008#0#PHP" expanded="false" />
-                <element signature="e#36013#36369#0#PHP" expanded="false" />
-                <element signature="e#36374#36966#0#PHP" expanded="false" />
-                <element signature="e#36453#36965#0#PHP" expanded="false" />
-                <element signature="e#36971#49262#0#PHP" expanded="false" />
-              </folding>
+      <file leaf-file-name="debug.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PHP/debug.log">
+          <provider selected="true" editor-type-id="LogFileEditorProvider">
+            <state relative-caret-position="462">
+              <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="debug.log" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PHP/debug.log">
-          <provider selected="true" editor-type-id="LogFileEditorProvider">
-            <state relative-caret-position="441">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+      <file leaf-file-name="Index.htm" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Index.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="736">
+              <caret line="98" column="0" lean-forward="true" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -63,6 +46,7 @@
         <option value="$PROJECT_DIR$/PHP/Common/iCalEvent.php" />
         <option value="$PROJECT_DIR$/PHP/debug.log" />
         <option value="$PROJECT_DIR$/PHP/Common/RecurrenceRule.php" />
+        <option value="$PROJECT_DIR$/Index.htm" />
       </list>
     </option>
   </component>
@@ -107,7 +91,19 @@
             <path>
               <item name="RRULE" type="b2602c69:ProjectViewProjectNode" />
               <item name="RRULE" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="PHP" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="JavaScript" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="RRULE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RRULE" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="JavaScript" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Common" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="RRULE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RRULE" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="JavaScript" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ThirdParty" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="RRULE" type="b2602c69:ProjectViewProjectNode" />
@@ -163,12 +159,12 @@
       <workItem from="1511361575907" duration="1957000" />
       <workItem from="1511428729269" duration="354000" />
       <workItem from="1511444536338" duration="644000" />
-      <workItem from="1511463557808" duration="3722000" />
+      <workItem from="1511463557808" duration="4111000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36135000" />
+    <option name="totallyTimeSpent" value="36524000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -441,30 +437,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Index.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="88" lean-forward="true" selection-start-line="30" selection-start-column="88" selection-end-line="30" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PHP/Common/Log.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="597">
           <caret line="284" column="22" lean-forward="true" selection-start-line="284" selection-start-column="22" selection-end-line="284" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/debug.log">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="1480">
-          <caret line="300" column="0" lean-forward="false" selection-start-line="300" selection-start-column="0" selection-end-line="300" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="441">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -488,6 +464,27 @@
             <element signature="e#36453#36965#0#PHP" expanded="false" />
             <element signature="e#36971#49262#0#PHP" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/debug.log">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="1480">
+          <caret line="300" column="0" lean-forward="false" selection-start-line="300" selection-start-column="0" selection-end-line="300" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="462">
+          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="98" column="0" lean-forward="true" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
