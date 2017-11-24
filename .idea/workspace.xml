@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3118ac85-7607-4e69-bda1-f8658ab6828b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/RRULE.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PHP/Common/RecurrenceRule.php" afterPath="$PROJECT_DIR$/PHP/Common/RecurrenceRule.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PHP/debug.log" afterPath="$PROJECT_DIR$/PHP/debug.log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,14 +18,33 @@
       <file leaf-file-name="RecurrenceRule.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PHP/Common/RecurrenceRule.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="1352" column="6" lean-forward="true" selection-start-line="1352" selection-start-column="6" selection-end-line="1352" selection-end-column="6" />
+            <state relative-caret-position="666">
+              <caret line="1372" column="0" lean-forward="true" selection-start-line="1372" selection-start-column="0" selection-end-line="1372" selection-end-column="0" />
               <folding>
-                <element signature="n#RecurrenceRule#0;n#!!top" expanded="false" />
+                <element signature="n#FromString#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
+                <element signature="n#FromRules#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
+                <element signature="n#FromEvent#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
                 <element signature="e#32840#32910#0#PHP" expanded="false" />
                 <element signature="e#33145#33519#0#PHP" expanded="false" />
                 <element signature="e#33521#34306#0#PHP" expanded="false" />
+                <element signature="e#34689#34973#0#PHP" expanded="false" />
+                <element signature="e#34989#35273#0#PHP" expanded="false" />
+                <element signature="e#35278#35620#0#PHP" expanded="false" />
+                <element signature="e#35626#36008#0#PHP" expanded="false" />
+                <element signature="e#36013#36369#0#PHP" expanded="false" />
+                <element signature="e#36374#36966#0#PHP" expanded="false" />
+                <element signature="e#36453#36965#0#PHP" expanded="false" />
+                <element signature="e#36971#49262#0#PHP" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="debug.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PHP/debug.log">
+          <provider selected="true" editor-type-id="LogFileEditorProvider">
+            <state relative-caret-position="441">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
             </state>
           </provider>
         </entry>
@@ -43,6 +61,7 @@
         <option value="$PROJECT_DIR$/PHP/Common/DateAndTime.php" />
         <option value="$PROJECT_DIR$/PHP/Common/Utilities.php" />
         <option value="$PROJECT_DIR$/PHP/Common/iCalEvent.php" />
+        <option value="$PROJECT_DIR$/PHP/debug.log" />
         <option value="$PROJECT_DIR$/PHP/Common/RecurrenceRule.php" />
       </list>
     </option>
@@ -56,8 +75,10 @@
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="x" value="19" />
+    <option name="y" value="36" />
+    <option name="width" value="1847" />
+    <option name="height" value="977" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -75,6 +96,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -89,12 +111,6 @@
             </path>
             <path>
               <item name="RRULE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RRULE" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="PHP" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Common" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="RRULE" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
             </path>
           </expand>
@@ -102,7 +118,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -143,18 +158,23 @@
       <workItem from="1510742254796" duration="696000" />
       <workItem from="1510753274722" duration="356000" />
       <workItem from="1510759311439" duration="8977000" />
-      <workItem from="1510926233999" duration="3196000" />
+      <workItem from="1510926233999" duration="19141000" />
+      <workItem from="1511357903791" duration="288000" />
+      <workItem from="1511361575907" duration="1957000" />
+      <workItem from="1511428729269" duration="354000" />
+      <workItem from="1511444536338" duration="644000" />
+      <workItem from="1511463557808" duration="3722000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13225000" />
+    <option name="totallyTimeSpent" value="36135000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19166666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1453125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30582523" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -184,20 +204,180 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="3" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/PHP/Common/RecurrenceRule.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="29841">
+          <caret line="1421" column="30" lean-forward="false" selection-start-line="1421" selection-start-column="30" selection-end-line="1421" selection-end-column="30" />
           <folding>
-            <element signature="n#RecurrenceRule#0;n#!!top" expanded="false" />
+            <element signature="n#FromString#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
+            <element signature="n#FromRules#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
+            <element signature="n#FromEvent#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
             <element signature="e#32840#32910#0#PHP" expanded="false" />
             <element signature="e#33145#33519#0#PHP" expanded="false" />
             <element signature="e#33521#34306#0#PHP" expanded="false" />
+            <element signature="e#34689#34973#0#PHP" expanded="false" />
+            <element signature="e#34989#35273#0#PHP" expanded="false" />
+            <element signature="e#35278#35620#0#PHP" expanded="false" />
+            <element signature="e#35626#36008#0#PHP" expanded="false" />
+            <element signature="e#36013#36369#0#PHP" expanded="false" />
+            <element signature="e#36374#36966#0#PHP" expanded="false" />
+            <element signature="e#36453#36965#0#PHP" expanded="false" />
+            <element signature="e#36971#49262#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/debug.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="6993">
+          <caret line="333" column="0" lean-forward="false" selection-start-line="333" selection-start-column="0" selection-end-line="333" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/Common/RecurrenceRule.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23625">
+          <caret line="1421" column="30" lean-forward="false" selection-start-line="1421" selection-start-column="30" selection-end-line="1421" selection-end-column="30" />
+          <folding>
+            <element signature="n#FromString#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
+            <element signature="n#FromRules#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
+            <element signature="n#FromEvent#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
+            <element signature="e#32840#32910#0#PHP" expanded="false" />
+            <element signature="e#33145#33519#0#PHP" expanded="false" />
+            <element signature="e#33521#34306#0#PHP" expanded="false" />
+            <element signature="e#34689#34973#0#PHP" expanded="false" />
+            <element signature="e#34989#35273#0#PHP" expanded="false" />
+            <element signature="e#35278#35620#0#PHP" expanded="false" />
+            <element signature="e#35626#36008#0#PHP" expanded="false" />
+            <element signature="e#36013#36369#0#PHP" expanded="false" />
+            <element signature="e#36374#36966#0#PHP" expanded="false" />
+            <element signature="e#36453#36965#0#PHP" expanded="false" />
+            <element signature="e#36971#49262#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/debug.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="6993">
+          <caret line="333" column="0" lean-forward="false" selection-start-line="333" selection-start-column="0" selection-end-line="333" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/Common/RecurrenceRule.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#FromString#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
+            <element signature="n#FromRules#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
+            <element signature="n#FromEvent#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
+            <element signature="e#32840#32910#0#PHP" expanded="false" />
+            <element signature="e#33145#33519#0#PHP" expanded="false" />
+            <element signature="e#33521#34306#0#PHP" expanded="false" />
+            <element signature="e#34689#34973#0#PHP" expanded="false" />
+            <element signature="e#34989#35273#0#PHP" expanded="false" />
+            <element signature="e#35278#35620#0#PHP" expanded="false" />
+            <element signature="e#35626#36008#0#PHP" expanded="false" />
+            <element signature="e#36013#36369#0#PHP" expanded="false" />
+            <element signature="e#36374#36966#0#PHP" expanded="false" />
+            <element signature="e#36453#36965#0#PHP" expanded="false" />
+            <element signature="e#36971#49262#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/debug.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="6993">
+          <caret line="333" column="0" lean-forward="true" selection-start-line="333" selection-start-column="0" selection-end-line="333" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/Common/RecurrenceRule.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#FromString#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
+            <element signature="n#FromRules#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
+            <element signature="n#FromEvent#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
+            <element signature="e#32840#32910#0#PHP" expanded="false" />
+            <element signature="e#33145#33519#0#PHP" expanded="false" />
+            <element signature="e#33521#34306#0#PHP" expanded="false" />
+            <element signature="e#34689#34973#0#PHP" expanded="false" />
+            <element signature="e#34989#35273#0#PHP" expanded="false" />
+            <element signature="e#35278#35620#0#PHP" expanded="false" />
+            <element signature="e#35626#36008#0#PHP" expanded="false" />
+            <element signature="e#36013#36369#0#PHP" expanded="false" />
+            <element signature="e#36374#36966#0#PHP" expanded="false" />
+            <element signature="e#36453#36965#0#PHP" expanded="false" />
+            <element signature="e#36971#49262#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/debug.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/Common/RecurrenceRule.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#FromString#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
+            <element signature="n#FromRules#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
+            <element signature="n#FromEvent#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
+            <element signature="e#32840#32910#0#PHP" expanded="false" />
+            <element signature="e#33145#33519#0#PHP" expanded="false" />
+            <element signature="e#33521#34306#0#PHP" expanded="false" />
+            <element signature="e#34689#34973#0#PHP" expanded="false" />
+            <element signature="e#34989#35273#0#PHP" expanded="false" />
+            <element signature="e#35278#35620#0#PHP" expanded="false" />
+            <element signature="e#35626#36008#0#PHP" expanded="false" />
+            <element signature="e#36013#36369#0#PHP" expanded="false" />
+            <element signature="e#36374#36966#0#PHP" expanded="false" />
+            <element signature="e#36453#36965#0#PHP" expanded="false" />
+            <element signature="e#36971#49262#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/debug.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/Common/RecurrenceRule.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#FromString#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
+            <element signature="n#FromRules#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
+            <element signature="n#FromEvent#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
+            <element signature="e#32840#32910#0#PHP" expanded="false" />
+            <element signature="e#33145#33519#0#PHP" expanded="false" />
+            <element signature="e#33521#34306#0#PHP" expanded="false" />
+            <element signature="e#34689#34973#0#PHP" expanded="false" />
+            <element signature="e#34989#35273#0#PHP" expanded="false" />
+            <element signature="e#35278#35620#0#PHP" expanded="false" />
+            <element signature="e#35626#36008#0#PHP" expanded="false" />
+            <element signature="e#36013#36369#0#PHP" expanded="false" />
+            <element signature="e#36374#36966#0#PHP" expanded="false" />
+            <element signature="e#36453#36965#0#PHP" expanded="false" />
+            <element signature="e#36971#49262#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -208,7 +388,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -216,15 +395,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/Common/Log.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-449">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -232,7 +402,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -240,7 +409,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -248,9 +416,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="n#DateAndTime#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -258,7 +423,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -274,7 +438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="46" column="22" lean-forward="true" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -285,23 +448,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/debug.log">
+    <entry file="file://$PROJECT_DIR$/PHP/Common/Log.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state relative-caret-position="597">
+          <caret line="284" column="22" lean-forward="true" selection-start-line="284" selection-start-column="22" selection-end-line="284" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/debug.log">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="1480">
+          <caret line="300" column="0" lean-forward="false" selection-start-line="300" selection-start-column="0" selection-end-line="300" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="441">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PHP/Common/RecurrenceRule.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="1352" column="6" lean-forward="true" selection-start-line="1352" selection-start-column="6" selection-end-line="1352" selection-end-column="6" />
+        <state relative-caret-position="666">
+          <caret line="1372" column="0" lean-forward="true" selection-start-line="1372" selection-start-column="0" selection-end-line="1372" selection-end-column="0" />
           <folding>
-            <element signature="n#RecurrenceRule#0;n#!!top" expanded="false" />
+            <element signature="n#FromString#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
+            <element signature="n#FromRules#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
+            <element signature="n#FromEvent#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
             <element signature="e#32840#32910#0#PHP" expanded="false" />
             <element signature="e#33145#33519#0#PHP" expanded="false" />
             <element signature="e#33521#34306#0#PHP" expanded="false" />
+            <element signature="e#34689#34973#0#PHP" expanded="false" />
+            <element signature="e#34989#35273#0#PHP" expanded="false" />
+            <element signature="e#35278#35620#0#PHP" expanded="false" />
+            <element signature="e#35626#36008#0#PHP" expanded="false" />
+            <element signature="e#36013#36369#0#PHP" expanded="false" />
+            <element signature="e#36374#36966#0#PHP" expanded="false" />
+            <element signature="e#36453#36965#0#PHP" expanded="false" />
+            <element signature="e#36971#49262#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>

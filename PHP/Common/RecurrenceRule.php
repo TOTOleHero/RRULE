@@ -1352,6 +1352,28 @@ END:VCALENDAR
 
 if (0)
 {
+    $iCal = iCalEvent::FromString(
+        "
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+DTSTART:20110501T120102Z
+RRULE:FREQ=WEEKLY;COUNT=5
+END:VEVENT
+END:VCALENDAR
+");
+
+    $i = RecurrenceRule::FromEvent($iCal)->GetIterator();
+    while ($d = $i->GetNext())
+    {
+        print("" . $d[0]->ToString() . "\r");
+    }
+    $i->Close();
+}
+
+if (1)
+{
+	// Yearly, Exdate checking
 	RecurrenceRule::_CheckValues($testStartDate, "RRULE:FREQ=YEARLY;UNTIL=20180101T000000Z\nEXDATE:20130501T120102Z",
 		array(
 		"2011/05/01 12:01:02",
@@ -1362,6 +1384,7 @@ if (0)
 		"2017/05/01 12:01:02",
 		NULL
 		));
+	// Yearly
    RecurrenceRule::_CheckValues($testStartDate, "RRULE:FREQ=YEARLY;UNTIL=20180101T000000Z",
 		array(
 		"2011/05/01 12:01:02",
@@ -1373,18 +1396,19 @@ if (0)
 		"2017/05/01 12:01:02",
 		NULL
 		));
-   RecurrenceRule::_CheckValues($testStartDate, "RRULE:FREQ=MONTHLY;COUNT=8;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1",
+   RecurrenceRule::_CheckValues($testStartDate, "RRULE:FREQ=MONTHLY;COUNT=1;BYDAY=MO,TU,WE,TH,FR;BYSETPOS=-1",
 		array(
 		"2011/05/31 12:01:02",
-		"2011/06/30 12:01:02",
-		"2011/07/29 12:01:02",
-		"2011/08/31 12:01:02",
-		"2011/09/30 12:01:02",
-		"2011/10/31 12:01:02",
-		"2011/11/30 12:01:02",
-		"2011/12/30 12:01:02",
+//		"2011/06/30 12:01:02",
+//		"2011/07/29 12:01:02",
+//		"2011/08/31 12:01:02",
+//		"2011/09/30 12:01:02",
+//		"2011/10/31 12:01:02",
+//		"2011/11/30 12:01:02",
+//		"2011/12/30 12:01:02",
 		NULL
 		));
+
    RecurrenceRule::_CheckValues($testStartDate, "RRULE:FREQ=YEARLY;INTERVAL=2;BYMONTH=1;BYDAY=SU;BYHOUR=8,9;BYMINUTE=30",
 		array(
 		"2013/01/06 08:30:02",
@@ -1422,7 +1446,7 @@ if (0)
 		"2011/10/02 12:01:02",
 		"2011/11/06 12:01:02",
 		"2011/12/04 12:01:02",
-		"2012/01/01 12:01:02",
+//		"2012/01/01 12:01:02",
 		"2012/02/05 12:01:02",
 		"2012/03/04 12:01:02",
 		"2012/04/01 12:01:02",
@@ -1928,11 +1952,11 @@ if (0)
 		));
    RecurrenceRule::_CheckValues($testStartDate, "RRULE:FREQ=WEEKLY;COUNT=5",
       array(
-         "2011/05/02 12:01:02",
-         "2011/05/09 12:01:02",
-         "2011/05/16 12:01:02",
-         "2011/05/23 12:01:02",
-         "2011/05/30 12:01:02",
+         "2011/05/01 12:01:02",
+         "2011/05/08 12:01:02",
+         "2011/05/15 12:01:02",
+         "2011/05/22 12:01:02",
+         "2011/05/29 12:01:02",
       ));
 }
 ?>
