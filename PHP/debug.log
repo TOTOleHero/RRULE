@@ -10,3 +10,31 @@
 2017-11-24 09:57:36   <PHP/Common/RecurrenceRule.php> on line 1059 in function WriteDie()
 2017-11-24 09:57:36     <PHP/Common/Log.php> on line 291 in function WriteCallStack()
 2017-11-24 09:57:36 [END TRACE]
+2017-11-25 11:08:52 ERROR: unknown parameter for name/value pair: RRULE:FREQ=MONTHLY
+2017-11-25 11:08:52 [BEGIN TRACE: ERROR: Unknown frequency
+]
+2017-11-25 11:08:52 <PHP/Common/RecurrenceRule.php> on line 1367 in method RecurrenceRule->GetIterator()
+2017-11-25 11:08:52   <PHP/Common/RecurrenceRule.php> on line 640 in function WriteDie()
+2017-11-25 11:08:52     <PHP/Common/Log.php> on line 291 in function WriteCallStack()
+2017-11-25 11:08:52 [END TRACE]
+2017-11-25 11:09:21 ERROR: unknown parameter for name/value pair: RRULE:FREQ=MONTHLY
+2017-11-25 11:09:21 [BEGIN TRACE: ERROR: Unknown frequency
+]
+2017-11-25 11:09:21 <PHP/Common/RecurrenceRule.php> on line 1367 in method RecurrenceRule->GetIterator()
+2017-11-25 11:09:21   <PHP/Common/RecurrenceRule.php> on line 640 in function WriteDie()
+2017-11-25 11:09:21     <PHP/Common/Log.php> on line 291 in function WriteCallStack()
+2017-11-25 11:09:21 [END TRACE]
+2017-11-25 11:26:16 ERROR: unknown parameter for name/value pair: 
+2017-11-25 11:26:16 [BEGIN TRACE: ERROR: Unknown frequency
+]
+2017-11-25 11:26:16 <PHP/Common/RecurrenceRule.php> on line 1366 in method RecurrenceRule->GetIterator()
+2017-11-25 11:26:16   <PHP/Common/RecurrenceRule.php> on line 640 in function WriteDie()
+2017-11-25 11:26:16     <PHP/Common/Log.php> on line 291 in function WriteCallStack()
+2017-11-25 11:26:16 [END TRACE]
+2017-11-25 11:26:44 ERROR: unknown parameter for name/value pair: 
+2017-11-25 11:26:44 [BEGIN TRACE: ERROR: Unknown frequency
+]
+2017-11-25 11:26:44 <PHP/Common/RecurrenceRule.php> on line 1366 in method RecurrenceRule->GetIterator()
+2017-11-25 11:26:44   <PHP/Common/RecurrenceRule.php> on line 640 in function WriteDie()
+2017-11-25 11:26:44     <PHP/Common/Log.php> on line 291 in function WriteCallStack()
+2017-11-25 11:26:44 [END TRACE]

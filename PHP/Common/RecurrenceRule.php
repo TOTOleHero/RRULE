@@ -1350,7 +1350,7 @@ END:VCALENDAR
    $i->Close();
 }
 
-if (0)
+if (1)
 {
     $iCal = iCalEvent::FromString(
         "
@@ -1358,7 +1358,7 @@ BEGIN:VCALENDAR
 VERSION:2.0
 BEGIN:VEVENT
 DTSTART:20110501T120102Z
-RRULE:FREQ=WEEKLY;COUNT=5
+RRULE:FREQ=MONTHLY;COUNT=6;BYDAY=1SU,-1SU
 END:VEVENT
 END:VCALENDAR
 ");
@@ -1370,6 +1370,7 @@ END:VCALENDAR
     }
     $i->Close();
 }
+
 
 if (1)
 {
@@ -1408,6 +1409,15 @@ if (1)
 //		"2011/12/30 12:01:02",
 		NULL
 		));
+   // the real result
+//    2011/05/31 12:01:02 GMT
+//2011/07/31 12:01:02 GMT
+//2011/09/30 12:01:02 GMT
+//2011/11/30 12:01:02 GMT
+//2012/01/31 12:01:02 GMT
+//2012/02/29 12:01:02 GMT
+//2012/01/01 12:01:02 GMT
+//2012/04/30 12:01:02 GMT
 
    RecurrenceRule::_CheckValues($testStartDate, "RRULE:FREQ=YEARLY;INTERVAL=2;BYMONTH=1;BYDAY=SU;BYHOUR=8,9;BYMINUTE=30",
 		array(
@@ -1958,5 +1968,16 @@ if (1)
          "2011/05/22 12:01:02",
          "2011/05/29 12:01:02",
       ));
+
+    //Monthly on the 1st Friday for ten occurrences:
+    RecurrenceRule::_CheckValues($testStartDate, "RRULE:FREQ=MONTHLY;COUNT=5;BYDAY=1FR",
+        array(
+            "2011/05/06 12:01:02",
+            "2011/06/03 12:01:02",
+            "2011/07/01 12:01:02",
+            "2011/08/05 12:01:02",
+            "2011/09/02 12:01:02",
+            NULL,
+        ));
 }
 ?>

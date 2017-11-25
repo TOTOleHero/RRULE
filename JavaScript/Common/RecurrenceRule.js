@@ -1186,6 +1186,7 @@ if (0)
 	var s = t.toString();
 	Log_WriteInfo(s);
 	var i = t.GetIterator();
+	alert(s);
 	if (i)
 	{
 		var d = i.GetNext();
