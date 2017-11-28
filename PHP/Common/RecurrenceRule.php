@@ -1010,7 +1010,7 @@ class RecurrenceRule
 		return $iter;
 	}
 	
-	// only used for testing
+	// only used for testing ( start_day, rule, testing values )
 	static function _CheckValues($testStartDate, $s, $values)
 	{
 //		$values = $values;	// make a copy
@@ -1350,7 +1350,8 @@ END:VCALENDAR
    $i->Close();
 }
 
-if (1)
+// ByDAY
+if (0)
 {
     $iCal = iCalEvent::FromString(
         "
@@ -1370,7 +1371,90 @@ END:VCALENDAR
     }
     $i->Close();
 }
+// BYMONTHDAY
+if (0)
+{
+    $iCal = iCalEvent::FromString(
+        "
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+DTSTART:20110501T120102Z
+RRULE:FREQ=MONTHLY;COUNT=6;BYMONTHDAY=-3
+END:VEVENT
+END:VCALENDAR
+");
 
+    $i = RecurrenceRule::FromEvent($iCal)->GetIterator();
+    while ($d = $i->GetNext())
+    {
+        print("" . $d[0]->ToString() . "\r");
+    }
+    $i->Close();
+}
+//BYSETPOS
+//BYMONTHDAY
+if (0)
+{
+    $iCal = iCalEvent::FromString(
+        "
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+DTSTART:20110501T120102Z
+RRULE:FREQ=MONTHLY;COUNT=10;BYMONTHDAY=1,-1
+END:VEVENT
+END:VCALENDAR
+");
+//2011/05/01 12:01:02 GMT 2011/05/28 12:01:02 GMT 2011/06/01 12:01:02 GMT 2011/06/27 12:01:02 GMT 2011/07/01 12:01:02 GMT 2011/07/27 12:01:02 GMT
+    $i = RecurrenceRule::FromEvent($iCal)->GetIterator();
+    while ($d = $i->GetNext())
+    {
+        print("" . $d[0]->ToString() . "\r");
+    }
+    $i->Close();
+}
+//Unit Testing Error
+if (0)
+{
+    $iCal = iCalEvent::FromString(
+        "
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+DTSTART:20110501T120102Z
+RRULE:FREQ=MONTHLY;BYDAY=SA;COUNT=5;BYMONTHDAY=7,8,9,10,11,12,13
+END:VEVENT
+END:VCALENDAR
+");
+
+    $i = RecurrenceRule::FromEvent($iCal)->GetIterator();
+    while ($d = $i->GetNext())
+    {
+        print("" . $d[0]->ToString() . "\r");
+    }
+    $i->Close();
+}
+if (1)
+{
+    $iCal = iCalEvent::FromString(
+        "
+BEGIN:VCALENDAR
+VERSION:2.0
+BEGIN:VEVENT
+DTSTART:20110501T120102Z
+RRULE:FREQ=MINUTELY;INTERVAL=15;COUNT=6
+END:VEVENT
+END:VCALENDAR
+");
+
+    $i = RecurrenceRule::FromEvent($iCal)->GetIterator();
+    while ($d = $i->GetNext())
+    {
+        print("" . $d[0]->ToString() . "\r");
+    }
+    $i->Close();
+}
 
 if (1)
 {
@@ -1409,8 +1493,9 @@ if (1)
 //		"2011/12/30 12:01:02",
 		NULL
 		));
+
    // the real result
-//    2011/05/31 12:01:02 GMT
+//2011/05/31 12:01:02 GMT
 //2011/07/31 12:01:02 GMT
 //2011/09/30 12:01:02 GMT
 //2011/11/30 12:01:02 GMT
@@ -1969,7 +2054,7 @@ if (1)
          "2011/05/29 12:01:02",
       ));
 
-    //Monthly on the 1st Friday for ten occurrences:
+   //Monthly on the 1st Friday for ten occurrences:
     RecurrenceRule::_CheckValues($testStartDate, "RRULE:FREQ=MONTHLY;COUNT=5;BYDAY=1FR",
         array(
             "2011/05/06 12:01:02",
@@ -1977,6 +2062,67 @@ if (1)
             "2011/07/01 12:01:02",
             "2011/08/05 12:01:02",
             "2011/09/02 12:01:02",
+            NULL,
+        ));
+	//Monthly on the second to last Monday of the month for 6 months
+    RecurrenceRule::_CheckValues($testStartDate, "RRULE:FREQ=MONTHLY;COUNT=6;BYDAY=-2MO",
+        array(
+            "2011/05/23 12:01:02",
+            "2011/06/20 12:01:02",
+            "2011/07/18 12:01:02",
+            "2011/08/22 12:01:02",
+            "2011/09/19 12:01:02",
+            "2011/10/24 12:01:02",
+            NULL,
+        ));
+    //Monthly on the 2nd and 15th of the month for 10 occurrences
+    RecurrenceRule::_CheckValues($testStartDate, "RRULE:FREQ=MONTHLY;COUNT=6;BYMONTHDAY=2,15",
+        array(
+            "2011/05/02 12:01:02",
+            "2011/05/15 12:01:02",
+            "2011/06/02 12:01:02",
+            "2011/06/15 12:01:02",
+            "2011/07/02 12:01:02",
+            "2011/07/15 12:01:02",
+            NULL,
+        ));
+    //Yearly in June and July for 4 occurrences:
+    RecurrenceRule::_CheckValues($testStartDate, "RRULE:FREQ=YEARLY;COUNT=4;BYMONTH=6,7",
+        array(
+            "2011/06/01 12:01:02",
+            "2011/07/01 12:01:02",
+            "2012/06/01 12:01:02",
+            "2012/07/01 12:01:02",
+            NULL,
+        ));
+	//Monday of week number 20 (where the default start of the week is Monday)
+    RecurrenceRule::_CheckValues($testStartDate, "RRULE:FREQ=YEARLY;COUNT=5;BYWEEKNO=20;BYDAY=MO",
+        array(
+            "2011/05/16 12:01:02",
+            "2012/05/14 12:01:02",
+            "2013/05/13 12:01:02",
+            "2014/05/12 12:01:02",
+            "2015/05/18 12:01:02",
+            NULL,
+        ));
+    //Every four years, the first Tuesday after a Monday in November, forever (U.S. Presidential Election day)
+    RecurrenceRule::_CheckValues($testStartDate, "RRULE:FREQ=YEARLY;INTERVAL=4;BYMONTH=11;BYDAY=TU;BYMONTHDAY=2,3,4,5,6,7,8",
+        array(
+            "2011/11/08 12:01:02",
+            "2015/11/03 12:01:02",
+            "2019/11/05 12:01:02",
+            "2023/11/07 12:01:02",
+            "2027/11/02 12:01:02",
+            "2031/11/04 12:01:02",
+            "2035/11/06 12:01:02",
+            NULL,
+        ));
+	// The 3rd instance into the month of one of Tuesday, Wednesday or Thursday, for the next 3 months:
+    RecurrenceRule::_CheckValues($testStartDate, "RRULE:FREQ=MONTHLY;COUNT=3;BYDAY=TU,WE,TH;BYSETPOS=3",
+        array(
+            "2011/05/05 12:01:02",
+            "2011/07/03 12:01:02",
+            "2011/09/03 12:01:02",
             NULL,
         ));
 }
