@@ -4,7 +4,6 @@
     <list default="true" id="3118ac85-7607-4e69-bda1-f8658ab6828b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PHP/Common/RecurrenceRule.php" afterPath="$PROJECT_DIR$/PHP/Common/RecurrenceRule.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PHP/debug.log" afterPath="$PROJECT_DIR$/PHP/debug.log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,8 +17,8 @@
       <file leaf-file-name="RecurrenceRule.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PHP/Common/RecurrenceRule.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="1454" column="5" lean-forward="true" selection-start-line="1454" selection-start-column="5" selection-end-line="1454" selection-end-column="5" />
+            <state relative-caret-position="798">
+              <caret line="2076" column="11" lean-forward="true" selection-start-line="2076" selection-start-column="11" selection-end-line="2076" selection-end-column="11" />
               <folding>
                 <element signature="n#GetIterator#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
                 <element signature="n#FromRules#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
@@ -27,21 +26,21 @@
                 <element signature="e#32876#32946#0#PHP" expanded="false" />
                 <element signature="e#33181#33555#0#PHP" expanded="false" />
                 <element signature="e#33557#34342#0#PHP" expanded="false" />
-                <element signature="e#36408#36692#0#PHP" expanded="false" />
-                <element signature="e#36799#36991#0#PHP" expanded="false" />
-                <element signature="e#37107#37338#0#PHP" expanded="false" />
-                <element signature="e#37345#37363#0#PHP" expanded="false" />
-                <element signature="e#37697#37957#0#PHP" expanded="false" />
-                <element signature="e#38050#38318#0#PHP" expanded="false" />
-                <element signature="e#38403#38915#0#PHP" expanded="false" />
-                <element signature="e#39001#51211#0#PHP" expanded="false" />
-                <element signature="e#51297#51471#0#PHP" expanded="false" />
-                <element signature="e#51624#51833#0#PHP" expanded="false" />
-                <element signature="e#51906#52245#0#PHP" expanded="false" />
-                <element signature="e#52416#52660#0#PHP" expanded="false" />
-                <element signature="e#52810#52984#0#PHP" expanded="false" />
-                <element signature="e#53170#53379#0#PHP" expanded="false" />
-                <element signature="e#53627#53906#0#PHP" expanded="false" />
+                <element signature="e#36421#36705#0#PHP" expanded="false" />
+                <element signature="e#36812#37004#0#PHP" expanded="false" />
+                <element signature="e#37120#37351#0#PHP" expanded="false" />
+                <element signature="e#37358#37376#0#PHP" expanded="false" />
+                <element signature="e#37710#37970#0#PHP" expanded="false" />
+                <element signature="e#38063#38331#0#PHP" expanded="false" />
+                <element signature="e#38416#38928#0#PHP" expanded="false" />
+                <element signature="e#39014#51224#0#PHP" expanded="false" />
+                <element signature="e#51310#51484#0#PHP" expanded="false" />
+                <element signature="e#51637#51846#0#PHP" expanded="false" />
+                <element signature="e#51919#52258#0#PHP" expanded="false" />
+                <element signature="e#52429#52673#0#PHP" expanded="false" />
+                <element signature="e#52823#52997#0#PHP" expanded="false" />
+                <element signature="e#53183#53392#0#PHP" expanded="false" />
+                <element signature="e#53640#53919#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -119,6 +118,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,7 +144,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -195,12 +194,13 @@
       <workItem from="1511715936022" duration="866000" />
       <workItem from="1511723509652" duration="882000" />
       <workItem from="1511768058510" duration="1310000" />
-      <workItem from="1511802965492" duration="5370000" />
+      <workItem from="1511802965492" duration="6046000" />
+      <workItem from="1511891257820" duration="3283000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54841000" />
+    <option name="totallyTimeSpent" value="58800000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -210,7 +210,6 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30582523" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291262" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -222,6 +221,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291262" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -259,29 +259,22 @@
             <element signature="e#32876#32946#0#PHP" expanded="false" />
             <element signature="e#33181#33555#0#PHP" expanded="false" />
             <element signature="e#33557#34342#0#PHP" expanded="false" />
-            <element signature="e#36408#36692#0#PHP" expanded="false" />
-            <element signature="e#36799#36991#0#PHP" expanded="false" />
-            <element signature="e#37107#37338#0#PHP" expanded="false" />
-            <element signature="e#37345#37363#0#PHP" expanded="false" />
-            <element signature="e#37697#37957#0#PHP" expanded="false" />
-            <element signature="e#38050#38318#0#PHP" expanded="false" />
-            <element signature="e#38403#38915#0#PHP" expanded="false" />
-            <element signature="e#39001#51211#0#PHP" expanded="false" />
-            <element signature="e#51297#51471#0#PHP" expanded="false" />
-            <element signature="e#51624#51833#0#PHP" expanded="false" />
-            <element signature="e#51906#52245#0#PHP" expanded="false" />
-            <element signature="e#52416#52660#0#PHP" expanded="false" />
-            <element signature="e#52810#52984#0#PHP" expanded="false" />
-            <element signature="e#53170#53379#0#PHP" expanded="false" />
-            <element signature="e#53627#53906#0#PHP" expanded="false" />
+            <element signature="e#36421#36705#0#PHP" expanded="false" />
+            <element signature="e#36812#37004#0#PHP" expanded="false" />
+            <element signature="e#37120#37351#0#PHP" expanded="false" />
+            <element signature="e#37358#37376#0#PHP" expanded="false" />
+            <element signature="e#37710#37970#0#PHP" expanded="false" />
+            <element signature="e#38063#38331#0#PHP" expanded="false" />
+            <element signature="e#38416#38928#0#PHP" expanded="false" />
+            <element signature="e#39014#51224#0#PHP" expanded="false" />
+            <element signature="e#51310#51484#0#PHP" expanded="false" />
+            <element signature="e#51637#51846#0#PHP" expanded="false" />
+            <element signature="e#51919#52258#0#PHP" expanded="false" />
+            <element signature="e#52429#52673#0#PHP" expanded="false" />
+            <element signature="e#52823#52997#0#PHP" expanded="false" />
+            <element signature="e#53183#53392#0#PHP" expanded="false" />
+            <element signature="e#53640#53919#0#PHP" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/debug.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="1659">
-          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -296,32 +289,26 @@
             <element signature="e#32876#32946#0#PHP" expanded="false" />
             <element signature="e#33181#33555#0#PHP" expanded="false" />
             <element signature="e#33557#34342#0#PHP" expanded="false" />
-            <element signature="e#36408#36692#0#PHP" expanded="false" />
-            <element signature="e#36799#36991#0#PHP" expanded="false" />
-            <element signature="e#37107#37338#0#PHP" expanded="false" />
-            <element signature="e#37345#37363#0#PHP" expanded="false" />
-            <element signature="e#37697#37957#0#PHP" expanded="false" />
-            <element signature="e#38050#38318#0#PHP" expanded="false" />
-            <element signature="e#38403#38915#0#PHP" expanded="false" />
-            <element signature="e#39001#51211#0#PHP" expanded="false" />
-            <element signature="e#51297#51471#0#PHP" expanded="false" />
-            <element signature="e#51624#51833#0#PHP" expanded="false" />
-            <element signature="e#51906#52245#0#PHP" expanded="false" />
-            <element signature="e#52416#52660#0#PHP" expanded="false" />
-            <element signature="e#52810#52984#0#PHP" expanded="false" />
-            <element signature="e#53170#53379#0#PHP" expanded="false" />
-            <element signature="e#53627#53906#0#PHP" expanded="false" />
+            <element signature="e#36421#36705#0#PHP" expanded="false" />
+            <element signature="e#36812#37004#0#PHP" expanded="false" />
+            <element signature="e#37120#37351#0#PHP" expanded="false" />
+            <element signature="e#37358#37376#0#PHP" expanded="false" />
+            <element signature="e#37710#37970#0#PHP" expanded="false" />
+            <element signature="e#38063#38331#0#PHP" expanded="false" />
+            <element signature="e#38416#38928#0#PHP" expanded="false" />
+            <element signature="e#39014#51224#0#PHP" expanded="false" />
+            <element signature="e#51310#51484#0#PHP" expanded="false" />
+            <element signature="e#51637#51846#0#PHP" expanded="false" />
+            <element signature="e#51919#52258#0#PHP" expanded="false" />
+            <element signature="e#52429#52673#0#PHP" expanded="false" />
+            <element signature="e#52823#52997#0#PHP" expanded="false" />
+            <element signature="e#53183#53392#0#PHP" expanded="false" />
+            <element signature="e#53640#53919#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/debug.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="1659">
-          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/debug.log" />
     <entry file="file://$PROJECT_DIR$/PHP/Common/RecurrenceRule.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -333,32 +320,26 @@
             <element signature="e#32876#32946#0#PHP" expanded="false" />
             <element signature="e#33181#33555#0#PHP" expanded="false" />
             <element signature="e#33557#34342#0#PHP" expanded="false" />
-            <element signature="e#36408#36692#0#PHP" expanded="false" />
-            <element signature="e#36799#36991#0#PHP" expanded="false" />
-            <element signature="e#37107#37338#0#PHP" expanded="false" />
-            <element signature="e#37345#37363#0#PHP" expanded="false" />
-            <element signature="e#37697#37957#0#PHP" expanded="false" />
-            <element signature="e#38050#38318#0#PHP" expanded="false" />
-            <element signature="e#38403#38915#0#PHP" expanded="false" />
-            <element signature="e#39001#51211#0#PHP" expanded="false" />
-            <element signature="e#51297#51471#0#PHP" expanded="false" />
-            <element signature="e#51624#51833#0#PHP" expanded="false" />
-            <element signature="e#51906#52245#0#PHP" expanded="false" />
-            <element signature="e#52416#52660#0#PHP" expanded="false" />
-            <element signature="e#52810#52984#0#PHP" expanded="false" />
-            <element signature="e#53170#53379#0#PHP" expanded="false" />
-            <element signature="e#53627#53906#0#PHP" expanded="false" />
+            <element signature="e#36421#36705#0#PHP" expanded="false" />
+            <element signature="e#36812#37004#0#PHP" expanded="false" />
+            <element signature="e#37120#37351#0#PHP" expanded="false" />
+            <element signature="e#37358#37376#0#PHP" expanded="false" />
+            <element signature="e#37710#37970#0#PHP" expanded="false" />
+            <element signature="e#38063#38331#0#PHP" expanded="false" />
+            <element signature="e#38416#38928#0#PHP" expanded="false" />
+            <element signature="e#39014#51224#0#PHP" expanded="false" />
+            <element signature="e#51310#51484#0#PHP" expanded="false" />
+            <element signature="e#51637#51846#0#PHP" expanded="false" />
+            <element signature="e#51919#52258#0#PHP" expanded="false" />
+            <element signature="e#52429#52673#0#PHP" expanded="false" />
+            <element signature="e#52823#52997#0#PHP" expanded="false" />
+            <element signature="e#53183#53392#0#PHP" expanded="false" />
+            <element signature="e#53640#53919#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/debug.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="1659">
-          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/debug.log" />
     <entry file="file://$PROJECT_DIR$/PHP/Common/RecurrenceRule.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -370,32 +351,57 @@
             <element signature="e#32876#32946#0#PHP" expanded="false" />
             <element signature="e#33181#33555#0#PHP" expanded="false" />
             <element signature="e#33557#34342#0#PHP" expanded="false" />
-            <element signature="e#36408#36692#0#PHP" expanded="false" />
-            <element signature="e#36799#36991#0#PHP" expanded="false" />
-            <element signature="e#37107#37338#0#PHP" expanded="false" />
-            <element signature="e#37345#37363#0#PHP" expanded="false" />
-            <element signature="e#37697#37957#0#PHP" expanded="false" />
-            <element signature="e#38050#38318#0#PHP" expanded="false" />
-            <element signature="e#38403#38915#0#PHP" expanded="false" />
-            <element signature="e#39001#51211#0#PHP" expanded="false" />
-            <element signature="e#51297#51471#0#PHP" expanded="false" />
-            <element signature="e#51624#51833#0#PHP" expanded="false" />
-            <element signature="e#51906#52245#0#PHP" expanded="false" />
-            <element signature="e#52416#52660#0#PHP" expanded="false" />
-            <element signature="e#52810#52984#0#PHP" expanded="false" />
-            <element signature="e#53170#53379#0#PHP" expanded="false" />
-            <element signature="e#53627#53906#0#PHP" expanded="false" />
+            <element signature="e#36421#36705#0#PHP" expanded="false" />
+            <element signature="e#36812#37004#0#PHP" expanded="false" />
+            <element signature="e#37120#37351#0#PHP" expanded="false" />
+            <element signature="e#37358#37376#0#PHP" expanded="false" />
+            <element signature="e#37710#37970#0#PHP" expanded="false" />
+            <element signature="e#38063#38331#0#PHP" expanded="false" />
+            <element signature="e#38416#38928#0#PHP" expanded="false" />
+            <element signature="e#39014#51224#0#PHP" expanded="false" />
+            <element signature="e#51310#51484#0#PHP" expanded="false" />
+            <element signature="e#51637#51846#0#PHP" expanded="false" />
+            <element signature="e#51919#52258#0#PHP" expanded="false" />
+            <element signature="e#52429#52673#0#PHP" expanded="false" />
+            <element signature="e#52823#52997#0#PHP" expanded="false" />
+            <element signature="e#53183#53392#0#PHP" expanded="false" />
+            <element signature="e#53640#53919#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/debug.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="1659">
-          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+    <entry file="file://$PROJECT_DIR$/PHP/debug.log" />
+    <entry file="file://$PROJECT_DIR$/PHP/Common/RecurrenceRule.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#GetIterator#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
+            <element signature="n#FromRules#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
+            <element signature="n#FromEvent#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
+            <element signature="e#32876#32946#0#PHP" expanded="false" />
+            <element signature="e#33181#33555#0#PHP" expanded="false" />
+            <element signature="e#33557#34342#0#PHP" expanded="false" />
+            <element signature="e#36421#36705#0#PHP" expanded="false" />
+            <element signature="e#36812#37004#0#PHP" expanded="false" />
+            <element signature="e#37120#37351#0#PHP" expanded="false" />
+            <element signature="e#37358#37376#0#PHP" expanded="false" />
+            <element signature="e#37710#37970#0#PHP" expanded="false" />
+            <element signature="e#38063#38331#0#PHP" expanded="false" />
+            <element signature="e#38416#38928#0#PHP" expanded="false" />
+            <element signature="e#39014#51224#0#PHP" expanded="false" />
+            <element signature="e#51310#51484#0#PHP" expanded="false" />
+            <element signature="e#51637#51846#0#PHP" expanded="false" />
+            <element signature="e#51919#52258#0#PHP" expanded="false" />
+            <element signature="e#52429#52673#0#PHP" expanded="false" />
+            <element signature="e#52823#52997#0#PHP" expanded="false" />
+            <element signature="e#53183#53392#0#PHP" expanded="false" />
+            <element signature="e#53640#53919#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/debug.log" />
     <entry file="file://$PROJECT_DIR$/PHP/Common/RecurrenceRule.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29841">
@@ -407,32 +413,26 @@
             <element signature="e#32876#32946#0#PHP" expanded="false" />
             <element signature="e#33181#33555#0#PHP" expanded="false" />
             <element signature="e#33557#34342#0#PHP" expanded="false" />
-            <element signature="e#36408#36692#0#PHP" expanded="false" />
-            <element signature="e#36799#36991#0#PHP" expanded="false" />
-            <element signature="e#37107#37338#0#PHP" expanded="false" />
-            <element signature="e#37345#37363#0#PHP" expanded="false" />
-            <element signature="e#37697#37957#0#PHP" expanded="false" />
-            <element signature="e#38050#38318#0#PHP" expanded="false" />
-            <element signature="e#38403#38915#0#PHP" expanded="false" />
-            <element signature="e#39001#51211#0#PHP" expanded="false" />
-            <element signature="e#51297#51471#0#PHP" expanded="false" />
-            <element signature="e#51624#51833#0#PHP" expanded="false" />
-            <element signature="e#51906#52245#0#PHP" expanded="false" />
-            <element signature="e#52416#52660#0#PHP" expanded="false" />
-            <element signature="e#52810#52984#0#PHP" expanded="false" />
-            <element signature="e#53170#53379#0#PHP" expanded="false" />
-            <element signature="e#53627#53906#0#PHP" expanded="false" />
+            <element signature="e#36421#36705#0#PHP" expanded="false" />
+            <element signature="e#36812#37004#0#PHP" expanded="false" />
+            <element signature="e#37120#37351#0#PHP" expanded="false" />
+            <element signature="e#37358#37376#0#PHP" expanded="false" />
+            <element signature="e#37710#37970#0#PHP" expanded="false" />
+            <element signature="e#38063#38331#0#PHP" expanded="false" />
+            <element signature="e#38416#38928#0#PHP" expanded="false" />
+            <element signature="e#39014#51224#0#PHP" expanded="false" />
+            <element signature="e#51310#51484#0#PHP" expanded="false" />
+            <element signature="e#51637#51846#0#PHP" expanded="false" />
+            <element signature="e#51919#52258#0#PHP" expanded="false" />
+            <element signature="e#52429#52673#0#PHP" expanded="false" />
+            <element signature="e#52823#52997#0#PHP" expanded="false" />
+            <element signature="e#53183#53392#0#PHP" expanded="false" />
+            <element signature="e#53640#53919#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/debug.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="6993">
-          <caret line="333" column="0" lean-forward="false" selection-start-line="333" selection-start-column="0" selection-end-line="333" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/debug.log" />
     <entry file="file://$PROJECT_DIR$/PHP/Common/RecurrenceRule.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23625">
@@ -444,32 +444,26 @@
             <element signature="e#32876#32946#0#PHP" expanded="false" />
             <element signature="e#33181#33555#0#PHP" expanded="false" />
             <element signature="e#33557#34342#0#PHP" expanded="false" />
-            <element signature="e#36408#36692#0#PHP" expanded="false" />
-            <element signature="e#36799#36991#0#PHP" expanded="false" />
-            <element signature="e#37107#37338#0#PHP" expanded="false" />
-            <element signature="e#37345#37363#0#PHP" expanded="false" />
-            <element signature="e#37697#37957#0#PHP" expanded="false" />
-            <element signature="e#38050#38318#0#PHP" expanded="false" />
-            <element signature="e#38403#38915#0#PHP" expanded="false" />
-            <element signature="e#39001#51211#0#PHP" expanded="false" />
-            <element signature="e#51297#51471#0#PHP" expanded="false" />
-            <element signature="e#51624#51833#0#PHP" expanded="false" />
-            <element signature="e#51906#52245#0#PHP" expanded="false" />
-            <element signature="e#52416#52660#0#PHP" expanded="false" />
-            <element signature="e#52810#52984#0#PHP" expanded="false" />
-            <element signature="e#53170#53379#0#PHP" expanded="false" />
-            <element signature="e#53627#53906#0#PHP" expanded="false" />
+            <element signature="e#36421#36705#0#PHP" expanded="false" />
+            <element signature="e#36812#37004#0#PHP" expanded="false" />
+            <element signature="e#37120#37351#0#PHP" expanded="false" />
+            <element signature="e#37358#37376#0#PHP" expanded="false" />
+            <element signature="e#37710#37970#0#PHP" expanded="false" />
+            <element signature="e#38063#38331#0#PHP" expanded="false" />
+            <element signature="e#38416#38928#0#PHP" expanded="false" />
+            <element signature="e#39014#51224#0#PHP" expanded="false" />
+            <element signature="e#51310#51484#0#PHP" expanded="false" />
+            <element signature="e#51637#51846#0#PHP" expanded="false" />
+            <element signature="e#51919#52258#0#PHP" expanded="false" />
+            <element signature="e#52429#52673#0#PHP" expanded="false" />
+            <element signature="e#52823#52997#0#PHP" expanded="false" />
+            <element signature="e#53183#53392#0#PHP" expanded="false" />
+            <element signature="e#53640#53919#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/debug.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="6993">
-          <caret line="333" column="0" lean-forward="false" selection-start-line="333" selection-start-column="0" selection-end-line="333" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/debug.log" />
     <entry file="file://$PROJECT_DIR$/PHP/Common/RecurrenceRule.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -481,32 +475,26 @@
             <element signature="e#32876#32946#0#PHP" expanded="false" />
             <element signature="e#33181#33555#0#PHP" expanded="false" />
             <element signature="e#33557#34342#0#PHP" expanded="false" />
-            <element signature="e#36408#36692#0#PHP" expanded="false" />
-            <element signature="e#36799#36991#0#PHP" expanded="false" />
-            <element signature="e#37107#37338#0#PHP" expanded="false" />
-            <element signature="e#37345#37363#0#PHP" expanded="false" />
-            <element signature="e#37697#37957#0#PHP" expanded="false" />
-            <element signature="e#38050#38318#0#PHP" expanded="false" />
-            <element signature="e#38403#38915#0#PHP" expanded="false" />
-            <element signature="e#39001#51211#0#PHP" expanded="false" />
-            <element signature="e#51297#51471#0#PHP" expanded="false" />
-            <element signature="e#51624#51833#0#PHP" expanded="false" />
-            <element signature="e#51906#52245#0#PHP" expanded="false" />
-            <element signature="e#52416#52660#0#PHP" expanded="false" />
-            <element signature="e#52810#52984#0#PHP" expanded="false" />
-            <element signature="e#53170#53379#0#PHP" expanded="false" />
-            <element signature="e#53627#53906#0#PHP" expanded="false" />
+            <element signature="e#36421#36705#0#PHP" expanded="false" />
+            <element signature="e#36812#37004#0#PHP" expanded="false" />
+            <element signature="e#37120#37351#0#PHP" expanded="false" />
+            <element signature="e#37358#37376#0#PHP" expanded="false" />
+            <element signature="e#37710#37970#0#PHP" expanded="false" />
+            <element signature="e#38063#38331#0#PHP" expanded="false" />
+            <element signature="e#38416#38928#0#PHP" expanded="false" />
+            <element signature="e#39014#51224#0#PHP" expanded="false" />
+            <element signature="e#51310#51484#0#PHP" expanded="false" />
+            <element signature="e#51637#51846#0#PHP" expanded="false" />
+            <element signature="e#51919#52258#0#PHP" expanded="false" />
+            <element signature="e#52429#52673#0#PHP" expanded="false" />
+            <element signature="e#52823#52997#0#PHP" expanded="false" />
+            <element signature="e#53183#53392#0#PHP" expanded="false" />
+            <element signature="e#53640#53919#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/debug.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="6993">
-          <caret line="333" column="0" lean-forward="true" selection-start-line="333" selection-start-column="0" selection-end-line="333" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/debug.log" />
     <entry file="file://$PROJECT_DIR$/PHP/Common/RecurrenceRule.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -518,32 +506,26 @@
             <element signature="e#32876#32946#0#PHP" expanded="false" />
             <element signature="e#33181#33555#0#PHP" expanded="false" />
             <element signature="e#33557#34342#0#PHP" expanded="false" />
-            <element signature="e#36408#36692#0#PHP" expanded="false" />
-            <element signature="e#36799#36991#0#PHP" expanded="false" />
-            <element signature="e#37107#37338#0#PHP" expanded="false" />
-            <element signature="e#37345#37363#0#PHP" expanded="false" />
-            <element signature="e#37697#37957#0#PHP" expanded="false" />
-            <element signature="e#38050#38318#0#PHP" expanded="false" />
-            <element signature="e#38403#38915#0#PHP" expanded="false" />
-            <element signature="e#39001#51211#0#PHP" expanded="false" />
-            <element signature="e#51297#51471#0#PHP" expanded="false" />
-            <element signature="e#51624#51833#0#PHP" expanded="false" />
-            <element signature="e#51906#52245#0#PHP" expanded="false" />
-            <element signature="e#52416#52660#0#PHP" expanded="false" />
-            <element signature="e#52810#52984#0#PHP" expanded="false" />
-            <element signature="e#53170#53379#0#PHP" expanded="false" />
-            <element signature="e#53627#53906#0#PHP" expanded="false" />
+            <element signature="e#36421#36705#0#PHP" expanded="false" />
+            <element signature="e#36812#37004#0#PHP" expanded="false" />
+            <element signature="e#37120#37351#0#PHP" expanded="false" />
+            <element signature="e#37358#37376#0#PHP" expanded="false" />
+            <element signature="e#37710#37970#0#PHP" expanded="false" />
+            <element signature="e#38063#38331#0#PHP" expanded="false" />
+            <element signature="e#38416#38928#0#PHP" expanded="false" />
+            <element signature="e#39014#51224#0#PHP" expanded="false" />
+            <element signature="e#51310#51484#0#PHP" expanded="false" />
+            <element signature="e#51637#51846#0#PHP" expanded="false" />
+            <element signature="e#51919#52258#0#PHP" expanded="false" />
+            <element signature="e#52429#52673#0#PHP" expanded="false" />
+            <element signature="e#52823#52997#0#PHP" expanded="false" />
+            <element signature="e#53183#53392#0#PHP" expanded="false" />
+            <element signature="e#53640#53919#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/debug.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/debug.log" />
     <entry file="file://$PROJECT_DIR$/PHP/Common/RecurrenceRule.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -555,32 +537,26 @@
             <element signature="e#32876#32946#0#PHP" expanded="false" />
             <element signature="e#33181#33555#0#PHP" expanded="false" />
             <element signature="e#33557#34342#0#PHP" expanded="false" />
-            <element signature="e#36408#36692#0#PHP" expanded="false" />
-            <element signature="e#36799#36991#0#PHP" expanded="false" />
-            <element signature="e#37107#37338#0#PHP" expanded="false" />
-            <element signature="e#37345#37363#0#PHP" expanded="false" />
-            <element signature="e#37697#37957#0#PHP" expanded="false" />
-            <element signature="e#38050#38318#0#PHP" expanded="false" />
-            <element signature="e#38403#38915#0#PHP" expanded="false" />
-            <element signature="e#39001#51211#0#PHP" expanded="false" />
-            <element signature="e#51297#51471#0#PHP" expanded="false" />
-            <element signature="e#51624#51833#0#PHP" expanded="false" />
-            <element signature="e#51906#52245#0#PHP" expanded="false" />
-            <element signature="e#52416#52660#0#PHP" expanded="false" />
-            <element signature="e#52810#52984#0#PHP" expanded="false" />
-            <element signature="e#53170#53379#0#PHP" expanded="false" />
-            <element signature="e#53627#53906#0#PHP" expanded="false" />
+            <element signature="e#36421#36705#0#PHP" expanded="false" />
+            <element signature="e#36812#37004#0#PHP" expanded="false" />
+            <element signature="e#37120#37351#0#PHP" expanded="false" />
+            <element signature="e#37358#37376#0#PHP" expanded="false" />
+            <element signature="e#37710#37970#0#PHP" expanded="false" />
+            <element signature="e#38063#38331#0#PHP" expanded="false" />
+            <element signature="e#38416#38928#0#PHP" expanded="false" />
+            <element signature="e#39014#51224#0#PHP" expanded="false" />
+            <element signature="e#51310#51484#0#PHP" expanded="false" />
+            <element signature="e#51637#51846#0#PHP" expanded="false" />
+            <element signature="e#51919#52258#0#PHP" expanded="false" />
+            <element signature="e#52429#52673#0#PHP" expanded="false" />
+            <element signature="e#52823#52997#0#PHP" expanded="false" />
+            <element signature="e#53183#53392#0#PHP" expanded="false" />
+            <element signature="e#53640#53919#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/debug.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/debug.log" />
     <entry file="file://$PROJECT_DIR$/PHP/Common/RecurrenceRule.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -592,21 +568,21 @@
             <element signature="e#32876#32946#0#PHP" expanded="false" />
             <element signature="e#33181#33555#0#PHP" expanded="false" />
             <element signature="e#33557#34342#0#PHP" expanded="false" />
-            <element signature="e#36408#36692#0#PHP" expanded="false" />
-            <element signature="e#36799#36991#0#PHP" expanded="false" />
-            <element signature="e#37107#37338#0#PHP" expanded="false" />
-            <element signature="e#37345#37363#0#PHP" expanded="false" />
-            <element signature="e#37697#37957#0#PHP" expanded="false" />
-            <element signature="e#38050#38318#0#PHP" expanded="false" />
-            <element signature="e#38403#38915#0#PHP" expanded="false" />
-            <element signature="e#39001#51211#0#PHP" expanded="false" />
-            <element signature="e#51297#51471#0#PHP" expanded="false" />
-            <element signature="e#51624#51833#0#PHP" expanded="false" />
-            <element signature="e#51906#52245#0#PHP" expanded="false" />
-            <element signature="e#52416#52660#0#PHP" expanded="false" />
-            <element signature="e#52810#52984#0#PHP" expanded="false" />
-            <element signature="e#53170#53379#0#PHP" expanded="false" />
-            <element signature="e#53627#53906#0#PHP" expanded="false" />
+            <element signature="e#36421#36705#0#PHP" expanded="false" />
+            <element signature="e#36812#37004#0#PHP" expanded="false" />
+            <element signature="e#37120#37351#0#PHP" expanded="false" />
+            <element signature="e#37358#37376#0#PHP" expanded="false" />
+            <element signature="e#37710#37970#0#PHP" expanded="false" />
+            <element signature="e#38063#38331#0#PHP" expanded="false" />
+            <element signature="e#38416#38928#0#PHP" expanded="false" />
+            <element signature="e#39014#51224#0#PHP" expanded="false" />
+            <element signature="e#51310#51484#0#PHP" expanded="false" />
+            <element signature="e#51637#51846#0#PHP" expanded="false" />
+            <element signature="e#51919#52258#0#PHP" expanded="false" />
+            <element signature="e#52429#52673#0#PHP" expanded="false" />
+            <element signature="e#52823#52997#0#PHP" expanded="false" />
+            <element signature="e#53183#53392#0#PHP" expanded="false" />
+            <element signature="e#53640#53919#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -793,23 +769,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/debug.log">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="1480">
-          <caret line="300" column="0" lean-forward="false" selection-start-line="300" selection-start-column="0" selection-end-line="300" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="862">
-          <caret line="156" column="0" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/debug.log" />
     <entry file="file://$PROJECT_DIR$/PHP/Common/RecurrenceRule.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="1454" column="5" lean-forward="true" selection-start-line="1454" selection-start-column="5" selection-end-line="1454" selection-end-column="5" />
+        <state relative-caret-position="798">
+          <caret line="2076" column="11" lean-forward="true" selection-start-line="2076" selection-start-column="11" selection-end-line="2076" selection-end-column="11" />
           <folding>
             <element signature="n#GetIterator#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
             <element signature="n#FromRules#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
@@ -817,21 +781,21 @@
             <element signature="e#32876#32946#0#PHP" expanded="false" />
             <element signature="e#33181#33555#0#PHP" expanded="false" />
             <element signature="e#33557#34342#0#PHP" expanded="false" />
-            <element signature="e#36408#36692#0#PHP" expanded="false" />
-            <element signature="e#36799#36991#0#PHP" expanded="false" />
-            <element signature="e#37107#37338#0#PHP" expanded="false" />
-            <element signature="e#37345#37363#0#PHP" expanded="false" />
-            <element signature="e#37697#37957#0#PHP" expanded="false" />
-            <element signature="e#38050#38318#0#PHP" expanded="false" />
-            <element signature="e#38403#38915#0#PHP" expanded="false" />
-            <element signature="e#39001#51211#0#PHP" expanded="false" />
-            <element signature="e#51297#51471#0#PHP" expanded="false" />
-            <element signature="e#51624#51833#0#PHP" expanded="false" />
-            <element signature="e#51906#52245#0#PHP" expanded="false" />
-            <element signature="e#52416#52660#0#PHP" expanded="false" />
-            <element signature="e#52810#52984#0#PHP" expanded="false" />
-            <element signature="e#53170#53379#0#PHP" expanded="false" />
-            <element signature="e#53627#53906#0#PHP" expanded="false" />
+            <element signature="e#36421#36705#0#PHP" expanded="false" />
+            <element signature="e#36812#37004#0#PHP" expanded="false" />
+            <element signature="e#37120#37351#0#PHP" expanded="false" />
+            <element signature="e#37358#37376#0#PHP" expanded="false" />
+            <element signature="e#37710#37970#0#PHP" expanded="false" />
+            <element signature="e#38063#38331#0#PHP" expanded="false" />
+            <element signature="e#38416#38928#0#PHP" expanded="false" />
+            <element signature="e#39014#51224#0#PHP" expanded="false" />
+            <element signature="e#51310#51484#0#PHP" expanded="false" />
+            <element signature="e#51637#51846#0#PHP" expanded="false" />
+            <element signature="e#51919#52258#0#PHP" expanded="false" />
+            <element signature="e#52429#52673#0#PHP" expanded="false" />
+            <element signature="e#52823#52997#0#PHP" expanded="false" />
+            <element signature="e#53183#53392#0#PHP" expanded="false" />
+            <element signature="e#53640#53919#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
