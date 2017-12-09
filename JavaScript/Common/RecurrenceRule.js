@@ -944,6 +944,7 @@ function _CheckValues(testStartDate, s, _values)
 {
 	var values = _values.slice();	// make a copy
 	var t = RecurrenceRule_FromString(s, testStartDate);
+	//alert(t);
 	if (t == null)
 	{
 		Log_Die("Can't parse " + s + "!");
@@ -1179,14 +1180,15 @@ function RecurrenceRule_FromString(s, dtstart, cache, unfold, forceset, compatib
 
 var testStartDate = DateAndTime_FromString("20110501T120102Z");
 
-if (0)
+if (1)
 {
 // use this for testing...
-	var t = RecurrenceRule_FromString("RRULE:FREQ=WEEKLY;INTERVAL=;BYDAY=TU,FR", testStartDate);
+	var t = RecurrenceRule_FromString("RRULE:FREQ=YEARLY;COUNT=4;BYMONTH=6,7", testStartDate);
 	var s = t.toString();
 	Log_WriteInfo(s);
 	var i = t.GetIterator();
-	alert(s);
+	//alert(s);
+	Log_WriteInfo(t);
 	if (i)
 	{
 		var d = i.GetNext();
@@ -1774,5 +1776,78 @@ if (1)
 		"2015/12/29 12:01:02",
 		"2016/01/01 12:01:02",
 		]);
+	_CheckValues(testStartDate, "RRULE:FREQ=DAILY;COUNT=5",
+		[
+			"2011/05/01 12:01:02",
+            "2011/05/02 12:01:02",
+            "2011/05/03 12:01:02",
+            "2011/05/04 12:01:02",
+            "2011/05/05 12:01:02",
+			null
+		]);
+    _CheckValues(testStartDate, "RRULE:FREQ=MONTHLY;COUNT=5;BYDAY=1FR",
+        [
+            "2011/05/06 12:01:02",
+            "2011/06/03 12:01:02",
+            "2011/07/01 12:01:02",
+            "2011/08/05 12:01:02",
+            "2011/09/02 12:01:02",
+            null
+        ]);
+    _CheckValues(testStartDate, "RRULE:FREQ=MONTHLY;COUNT=6;BYDAY=-2MO",
+        [
+            "2011/05/23 12:01:02",
+            "2011/06/20 12:01:02",
+            "2011/07/18 12:01:02",
+            "2011/08/22 12:01:02",
+            "2011/09/19 12:01:02",
+            "2011/10/24 12:01:02",
+            null
+        ]);
+    _CheckValues(testStartDate, "RRULE:FREQ=MONTHLY;COUNT=6;BYMONTHDAY=2,15",
+        [
+            "2011/05/02 12:01:02",
+            "2011/05/15 12:01:02",
+            "2011/06/02 12:01:02",
+            "2011/06/15 12:01:02",
+            "2011/07/02 12:01:02",
+            "2011/07/15 12:01:02",
+            null
+        ]);
+    _CheckValues(testStartDate, "RRULE:FREQ=YEARLY;COUNT=4;BYMONTH=6,7",
+        [
+            "2011/06/01 12:01:02",
+            "2011/07/01 12:01:02",
+            "2012/06/01 12:01:02",
+            "2012/07/01 12:01:02",
+            null
+        ]);
+    // _CheckValues(testStartDate, "RRULE:FREQ=YEARLY;COUNT=5;BYWEEKNO=20;BYDAY=MO",
+    //     [
+    //         "2011/05/16 12:01:02",
+    //         "2012/05/14 12:01:02",
+    //         "2013/05/13 12:01:02",
+    //         "2014/05/12 12:01:02",
+    //         "2015/05/18 12:01:02",
+    //         null
+    //     ]);
+    _CheckValues(testStartDate, "RRULE:FREQ=YEARLY;INTERVAL=4;BYMONTH=11;BYDAY=TU;BYMONTHDAY=2,3,4,5,6,7,8",
+        [
+            "2011/11/08 12:01:02",
+            "2015/11/03 12:01:02",
+            "2019/11/05 12:01:02",
+            "2023/11/07 12:01:02",
+            "2027/11/02 12:01:02",
+            "2031/11/04 12:01:02",
+            "2035/11/06 12:01:02",
+            null
+        ]);
+    _CheckValues(testStartDate, "RRULE:FREQ=MONTHLY;COUNT=3;BYDAY=TU,WE,TH;BYSETPOS=3",
+        [
+            "2011/05/05 12:01:02",
+            "2011/06/07 12:01:02",
+            "2011/07/07 12:01:02",
+            null
+        ]);
 }
 

@@ -1293,7 +1293,7 @@ class RecurrenceRule
 
 $testStartDate = DateAndTime::FromString("2011/05/01 12:01:02 Z");
 // Checking the Exdate
-if (0)
+if (1)
 {
 	$iCal = iCalEvent::FromString(
 "
@@ -1301,7 +1301,7 @@ BEGIN:VCALENDAR
 VERSION:2.0
 BEGIN:VEVENT
 DTSTART:19980501T120000Z
-RRULE:FREQ=YEARLY;UNTIL=20020101T000000Z
+RRULE:FREQ=MONTHLY;COUNT=3;BYDAY=TU,WE,TH;BYSETPOS=3
 EXDATE:20000501T120000Z
 EXDATE:19990501T120000Z
 END:VEVENT
@@ -1435,7 +1435,8 @@ END:VCALENDAR
     }
     $i->Close();
 }
-if (1)
+
+if (0)
 {
     $iCal = iCalEvent::FromString(
         "
@@ -1443,12 +1444,13 @@ BEGIN:VCALENDAR
 VERSION:2.0
 BEGIN:VEVENT
 DTSTART:20110501T120102Z
-RRULE:FREQ=MONTHLY;COUNT=3;BYDAY=TU,WE,TH;BYSETPOS=3
+RRULE:FREQ=WEEKLY;COUNT=5;INTERVAL=1
 END:VEVENT
 END:VCALENDAR
 ");
 
     $i = RecurrenceRule::FromEvent($iCal)->GetIterator();
+    print($iCal);
     while ($d = $i->GetNext())
     {
         print("" . $d[0]->ToString() . "\r");
@@ -1456,7 +1458,7 @@ END:VCALENDAR
     $i->Close();
 }
 
-if (1)
+if (0)
 {
 	// Yearly, Exdate checking
 	RecurrenceRule::_CheckValues($testStartDate, "RRULE:FREQ=YEARLY;UNTIL=20180101T000000Z\nEXDATE:20130501T120102Z",
@@ -2045,7 +2047,7 @@ if (1)
 		"2015/12/29 12:01:02",
 		"2016/01/01 12:01:02",
 		));
-   RecurrenceRule::_CheckValues($testStartDate, "RRULE:FREQ=WEEKLY;COUNT=5",
+   RecurrenceRule::_CheckValues($testStartDate, "RRULE:FREQ=WEEKLY;COUNT=5;INTERVAL=1",
       array(
          "2011/05/01 12:01:02",
          "2011/05/08 12:01:02",

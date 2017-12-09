@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3118ac85-7607-4e69-bda1-f8658ab6828b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavaScript/Common/RecurrenceRule.js" afterPath="$PROJECT_DIR$/JavaScript/Common/RecurrenceRule.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PHP/Common/RecurrenceRule.php" afterPath="$PROJECT_DIR$/PHP/Common/RecurrenceRule.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,30 +18,108 @@
       <file leaf-file-name="RecurrenceRule.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PHP/Common/RecurrenceRule.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="798">
-              <caret line="2076" column="11" lean-forward="true" selection-start-line="2076" selection-start-column="11" selection-end-line="2076" selection-end-column="11" />
+            <state relative-caret-position="336">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding>
                 <element signature="n#GetIterator#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
+                <element signature="e#30292#31227#0#PHP" expanded="false" />
                 <element signature="n#FromRules#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
                 <element signature="n#FromEvent#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
                 <element signature="e#32876#32946#0#PHP" expanded="false" />
-                <element signature="e#33181#33555#0#PHP" expanded="false" />
-                <element signature="e#33557#34342#0#PHP" expanded="false" />
-                <element signature="e#36421#36705#0#PHP" expanded="false" />
-                <element signature="e#36812#37004#0#PHP" expanded="false" />
-                <element signature="e#37120#37351#0#PHP" expanded="false" />
-                <element signature="e#37358#37376#0#PHP" expanded="false" />
-                <element signature="e#37710#37970#0#PHP" expanded="false" />
-                <element signature="e#38063#38331#0#PHP" expanded="false" />
-                <element signature="e#38416#38928#0#PHP" expanded="false" />
-                <element signature="e#39014#51224#0#PHP" expanded="false" />
-                <element signature="e#51310#51484#0#PHP" expanded="false" />
-                <element signature="e#51637#51846#0#PHP" expanded="false" />
-                <element signature="e#51919#52258#0#PHP" expanded="false" />
-                <element signature="e#52429#52673#0#PHP" expanded="false" />
-                <element signature="e#52823#52997#0#PHP" expanded="false" />
-                <element signature="e#53183#53392#0#PHP" expanded="false" />
-                <element signature="e#53640#53919#0#PHP" expanded="false" />
+                <element signature="e#33569#34354#0#PHP" expanded="false" />
+                <element signature="e#33589#33787#0#PHP" expanded="false" />
+                <element signature="e#34365#34722#0#PHP" expanded="false" />
+                <element signature="e#34737#35093#0#PHP" expanded="false" />
+                <element signature="e#34758#34925#0#PHP" expanded="false" />
+                <element signature="e#34990#35074#0#PHP" expanded="false" />
+                <element signature="e#35118#35622#0#PHP" expanded="false" />
+                <element signature="e#35139#35309#0#PHP" expanded="false" />
+                <element signature="e#35644#36024#0#PHP" expanded="false" />
+                <element signature="e#36026#36396#0#PHP" expanded="false" />
+                <element signature="e#36047#36210#0#PHP" expanded="false" />
+                <element signature="e#36552#36719#0#PHP" expanded="false" />
+                <element signature="e#36827#37019#0#PHP" expanded="false" />
+                <element signature="e#37135#37366#0#PHP" expanded="false" />
+                <element signature="e#37373#37391#0#PHP" expanded="false" />
+                <element signature="e#37725#37985#0#PHP" expanded="false" />
+                <element signature="e#38078#38346#0#PHP" expanded="false" />
+                <element signature="e#38431#38943#0#PHP" expanded="false" />
+                <element signature="e#39029#51239#0#PHP" expanded="false" />
+                <element signature="e#51336#51510#0#PHP" expanded="false" />
+                <element signature="e#51663#51872#0#PHP" expanded="false" />
+                <element signature="e#52039#52283#0#PHP" expanded="false" />
+                <element signature="e#52455#52699#0#PHP" expanded="false" />
+                <element signature="e#52849#53023#0#PHP" expanded="false" />
+                <element signature="e#53209#53418#0#PHP" expanded="false" />
+                <element signature="e#53666#53945#0#PHP" expanded="false" />
+                <element signature="e#54162#54301#0#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RecurrenceRule.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaScript/Common/RecurrenceRule.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3479">
+              <caret line="1192" column="5" lean-forward="true" selection-start-line="1192" selection-start-column="5" selection-end-line="1192" selection-end-column="5" />
+              <folding>
+                <element signature="e#377#447#0" expanded="false" />
+                <element signature="e#736#806#0" expanded="false" />
+                <element signature="e#951#1021#0" expanded="false" />
+                <element signature="n#!!block;n#RecurrenceRule#0" expanded="false" />
+                <element signature="e#1850#3564#0" expanded="false" />
+                <element signature="e#3613#3638#0" expanded="false" />
+                <element signature="e#3695#3721#0" expanded="false" />
+                <element signature="e#3768#3791#0" expanded="false" />
+                <element signature="e#3846#3870#0" expanded="false" />
+                <element signature="e#3921#3943#0" expanded="false" />
+                <element signature="e#4002#4025#0" expanded="false" />
+                <element signature="e#4075#4101#0" expanded="false" />
+                <element signature="e#4159#4238#0" expanded="false" />
+                <element signature="e#4285#4308#0" expanded="false" />
+                <element signature="e#4363#4455#0" expanded="false" />
+                <element signature="e#4502#4525#0" expanded="false" />
+                <element signature="e#4580#4604#0" expanded="false" />
+                <element signature="e#4607#4654#0" expanded="false" />
+                <element signature="e#4829#4855#0" expanded="false" />
+                <element signature="e#4913#4999#0" expanded="false" />
+                <element signature="e#5048#5073#0" expanded="false" />
+                <element signature="e#5130#5215#0" expanded="false" />
+                <element signature="e#5266#5293#0" expanded="false" />
+                <element signature="e#5352#5439#0" expanded="false" />
+                <element signature="e#5489#5515#0" expanded="false" />
+                <element signature="e#5573#5659#0" expanded="false" />
+                <element signature="e#5711#5739#0" expanded="false" />
+                <element signature="e#5799#5887#0" expanded="false" />
+                <element signature="e#5937#5963#0" expanded="false" />
+                <element signature="e#6021#6114#0" expanded="false" />
+                <element signature="e#6165#6192#0" expanded="false" />
+                <element signature="e#6251#6338#0" expanded="false" />
+                <element signature="e#6386#6410#0" expanded="false" />
+                <element signature="e#6466#6550#0" expanded="false" />
+                <element signature="e#6600#6626#0" expanded="false" />
+                <element signature="e#6684#6770#0" expanded="false" />
+                <element signature="e#6820#6846#0" expanded="false" />
+                <element signature="e#6904#6990#0" expanded="false" />
+                <element signature="n#!!block;n#_Log#0" expanded="false" />
+                <element signature="n#!!block;n#_CheckValues#0" expanded="false" />
+                <element signature="n#!!block;n#RecurrenceRule_FromString#0" expanded="false" />
+                <element signature="e#28232#28394#0" expanded="false" />
+                <element signature="e#28472#28659#0" expanded="false" />
+                <element signature="e#28756#28968#0" expanded="false" />
+                <element signature="e#29076#29331#0" expanded="false" />
+                <element signature="e#29405#29668#0" expanded="false" />
+                <element signature="e#29734#30239#0" expanded="false" />
+                <element signature="e#30306#42511#0" expanded="false" />
+                <element signature="e#42573#42752#0" expanded="false" />
+                <element signature="e#42835#43038#0" expanded="false" />
+                <element signature="e#43122#43360#0" expanded="false" />
+                <element signature="e#43449#43687#0" expanded="false" />
+                <element signature="e#43771#43939#0" expanded="false" />
+                <element signature="e#43946#44026#0" expanded="false" />
+                <element signature="e#44382#44655#0" expanded="false" />
+                <element signature="e#44754#44887#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -55,7 +134,13 @@
       <find>HTMLTextArea</find>
       <find>_CheckValues</find>
       <find>BYMONTHDAY</find>
+      <find>alert</find>
+      <find>BYSETPOS</find>
+      <find>$testStartDate</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/PHP/Common</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,8 +154,8 @@
         <option value="$PROJECT_DIR$/PHP/Common/iCalEvent.php" />
         <option value="$PROJECT_DIR$/PHP/debug.log" />
         <option value="$PROJECT_DIR$/Index.htm" />
-        <option value="$PROJECT_DIR$/JavaScript/Common/RecurrenceRule.js" />
         <option value="$PROJECT_DIR$/PHP/Common/RecurrenceRule.php" />
+        <option value="$PROJECT_DIR$/JavaScript/Common/RecurrenceRule.js" />
       </list>
     </option>
   </component>
@@ -82,9 +167,10 @@
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="height" value="991" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -119,6 +205,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -129,12 +216,13 @@
             <path>
               <item name="RRULE" type="b2602c69:ProjectViewProjectNode" />
               <item name="RRULE" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="JavaScript" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="PHP" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="RRULE" type="b2602c69:ProjectViewProjectNode" />
               <item name="RRULE" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="PHP" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Common" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="RRULE" type="b2602c69:ProjectViewProjectNode" />
@@ -144,7 +232,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -195,21 +282,29 @@
       <workItem from="1511723509652" duration="882000" />
       <workItem from="1511768058510" duration="1310000" />
       <workItem from="1511802965492" duration="6046000" />
-      <workItem from="1511891257820" duration="3283000" />
+      <workItem from="1511891257820" duration="8840000" />
+      <workItem from="1511944674171" duration="245000" />
+      <workItem from="1512029408013" duration="2428000" />
+      <workItem from="1512031932701" duration="1289000" />
+      <workItem from="1512034924231" duration="693000" />
+      <workItem from="1512037241021" duration="288000" />
+      <workItem from="1512038593479" duration="735000" />
+      <workItem from="1512051185417" duration="4697000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58800000" />
+    <option name="totallyTimeSpent" value="74732000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="991" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1296875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14635417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30582523" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291262" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -221,7 +316,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291262" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -236,14 +330,19 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/JavaScript/Common/RecurrenceRule.js</url>
-          <line>994</line>
-          <option name="timeStamp" value="5" />
+          <line>138</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/JavaScript/Common/RecurrenceRule.js</url>
+          <line>168</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="7" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -254,56 +353,37 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#GetIterator#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
+            <element signature="e#30292#31227#0#PHP" expanded="false" />
             <element signature="n#FromRules#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
             <element signature="n#FromEvent#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
             <element signature="e#32876#32946#0#PHP" expanded="false" />
-            <element signature="e#33181#33555#0#PHP" expanded="false" />
-            <element signature="e#33557#34342#0#PHP" expanded="false" />
-            <element signature="e#36421#36705#0#PHP" expanded="false" />
-            <element signature="e#36812#37004#0#PHP" expanded="false" />
-            <element signature="e#37120#37351#0#PHP" expanded="false" />
-            <element signature="e#37358#37376#0#PHP" expanded="false" />
-            <element signature="e#37710#37970#0#PHP" expanded="false" />
-            <element signature="e#38063#38331#0#PHP" expanded="false" />
-            <element signature="e#38416#38928#0#PHP" expanded="false" />
-            <element signature="e#39014#51224#0#PHP" expanded="false" />
-            <element signature="e#51310#51484#0#PHP" expanded="false" />
-            <element signature="e#51637#51846#0#PHP" expanded="false" />
-            <element signature="e#51919#52258#0#PHP" expanded="false" />
-            <element signature="e#52429#52673#0#PHP" expanded="false" />
-            <element signature="e#52823#52997#0#PHP" expanded="false" />
-            <element signature="e#53183#53392#0#PHP" expanded="false" />
-            <element signature="e#53640#53919#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PHP/Common/RecurrenceRule.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#GetIterator#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
-            <element signature="n#FromRules#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
-            <element signature="n#FromEvent#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
-            <element signature="e#32876#32946#0#PHP" expanded="false" />
-            <element signature="e#33181#33555#0#PHP" expanded="false" />
-            <element signature="e#33557#34342#0#PHP" expanded="false" />
-            <element signature="e#36421#36705#0#PHP" expanded="false" />
-            <element signature="e#36812#37004#0#PHP" expanded="false" />
-            <element signature="e#37120#37351#0#PHP" expanded="false" />
-            <element signature="e#37358#37376#0#PHP" expanded="false" />
-            <element signature="e#37710#37970#0#PHP" expanded="false" />
-            <element signature="e#38063#38331#0#PHP" expanded="false" />
-            <element signature="e#38416#38928#0#PHP" expanded="false" />
-            <element signature="e#39014#51224#0#PHP" expanded="false" />
-            <element signature="e#51310#51484#0#PHP" expanded="false" />
-            <element signature="e#51637#51846#0#PHP" expanded="false" />
-            <element signature="e#51919#52258#0#PHP" expanded="false" />
-            <element signature="e#52429#52673#0#PHP" expanded="false" />
-            <element signature="e#52823#52997#0#PHP" expanded="false" />
-            <element signature="e#53183#53392#0#PHP" expanded="false" />
-            <element signature="e#53640#53919#0#PHP" expanded="false" />
+            <element signature="e#33569#34354#0#PHP" expanded="false" />
+            <element signature="e#33589#33787#0#PHP" expanded="false" />
+            <element signature="e#34365#34722#0#PHP" expanded="false" />
+            <element signature="e#34737#35093#0#PHP" expanded="false" />
+            <element signature="e#34758#34925#0#PHP" expanded="false" />
+            <element signature="e#34990#35074#0#PHP" expanded="false" />
+            <element signature="e#35118#35622#0#PHP" expanded="false" />
+            <element signature="e#35139#35309#0#PHP" expanded="false" />
+            <element signature="e#35644#36024#0#PHP" expanded="false" />
+            <element signature="e#36026#36396#0#PHP" expanded="false" />
+            <element signature="e#36047#36210#0#PHP" expanded="false" />
+            <element signature="e#36552#36719#0#PHP" expanded="false" />
+            <element signature="e#36827#37019#0#PHP" expanded="false" />
+            <element signature="e#37135#37366#0#PHP" expanded="false" />
+            <element signature="e#37373#37391#0#PHP" expanded="false" />
+            <element signature="e#37725#37985#0#PHP" expanded="false" />
+            <element signature="e#38078#38346#0#PHP" expanded="false" />
+            <element signature="e#38431#38943#0#PHP" expanded="false" />
+            <element signature="e#39029#51239#0#PHP" expanded="false" />
+            <element signature="e#51336#51510#0#PHP" expanded="false" />
+            <element signature="e#51663#51872#0#PHP" expanded="false" />
+            <element signature="e#52039#52283#0#PHP" expanded="false" />
+            <element signature="e#52455#52699#0#PHP" expanded="false" />
+            <element signature="e#52849#53023#0#PHP" expanded="false" />
+            <element signature="e#53209#53418#0#PHP" expanded="false" />
+            <element signature="e#53666#53945#0#PHP" expanded="false" />
+            <element signature="e#54162#54301#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -315,26 +395,37 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#GetIterator#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
+            <element signature="e#30292#31227#0#PHP" expanded="false" />
             <element signature="n#FromRules#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
             <element signature="n#FromEvent#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
             <element signature="e#32876#32946#0#PHP" expanded="false" />
-            <element signature="e#33181#33555#0#PHP" expanded="false" />
-            <element signature="e#33557#34342#0#PHP" expanded="false" />
-            <element signature="e#36421#36705#0#PHP" expanded="false" />
-            <element signature="e#36812#37004#0#PHP" expanded="false" />
-            <element signature="e#37120#37351#0#PHP" expanded="false" />
-            <element signature="e#37358#37376#0#PHP" expanded="false" />
-            <element signature="e#37710#37970#0#PHP" expanded="false" />
-            <element signature="e#38063#38331#0#PHP" expanded="false" />
-            <element signature="e#38416#38928#0#PHP" expanded="false" />
-            <element signature="e#39014#51224#0#PHP" expanded="false" />
-            <element signature="e#51310#51484#0#PHP" expanded="false" />
-            <element signature="e#51637#51846#0#PHP" expanded="false" />
-            <element signature="e#51919#52258#0#PHP" expanded="false" />
-            <element signature="e#52429#52673#0#PHP" expanded="false" />
-            <element signature="e#52823#52997#0#PHP" expanded="false" />
-            <element signature="e#53183#53392#0#PHP" expanded="false" />
-            <element signature="e#53640#53919#0#PHP" expanded="false" />
+            <element signature="e#33569#34354#0#PHP" expanded="false" />
+            <element signature="e#33589#33787#0#PHP" expanded="false" />
+            <element signature="e#34365#34722#0#PHP" expanded="false" />
+            <element signature="e#34737#35093#0#PHP" expanded="false" />
+            <element signature="e#34758#34925#0#PHP" expanded="false" />
+            <element signature="e#34990#35074#0#PHP" expanded="false" />
+            <element signature="e#35118#35622#0#PHP" expanded="false" />
+            <element signature="e#35139#35309#0#PHP" expanded="false" />
+            <element signature="e#35644#36024#0#PHP" expanded="false" />
+            <element signature="e#36026#36396#0#PHP" expanded="false" />
+            <element signature="e#36047#36210#0#PHP" expanded="false" />
+            <element signature="e#36552#36719#0#PHP" expanded="false" />
+            <element signature="e#36827#37019#0#PHP" expanded="false" />
+            <element signature="e#37135#37366#0#PHP" expanded="false" />
+            <element signature="e#37373#37391#0#PHP" expanded="false" />
+            <element signature="e#37725#37985#0#PHP" expanded="false" />
+            <element signature="e#38078#38346#0#PHP" expanded="false" />
+            <element signature="e#38431#38943#0#PHP" expanded="false" />
+            <element signature="e#39029#51239#0#PHP" expanded="false" />
+            <element signature="e#51336#51510#0#PHP" expanded="false" />
+            <element signature="e#51663#51872#0#PHP" expanded="false" />
+            <element signature="e#52039#52283#0#PHP" expanded="false" />
+            <element signature="e#52455#52699#0#PHP" expanded="false" />
+            <element signature="e#52849#53023#0#PHP" expanded="false" />
+            <element signature="e#53209#53418#0#PHP" expanded="false" />
+            <element signature="e#53666#53945#0#PHP" expanded="false" />
+            <element signature="e#54162#54301#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -346,26 +437,37 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#GetIterator#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
+            <element signature="e#30292#31227#0#PHP" expanded="false" />
             <element signature="n#FromRules#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
             <element signature="n#FromEvent#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
             <element signature="e#32876#32946#0#PHP" expanded="false" />
-            <element signature="e#33181#33555#0#PHP" expanded="false" />
-            <element signature="e#33557#34342#0#PHP" expanded="false" />
-            <element signature="e#36421#36705#0#PHP" expanded="false" />
-            <element signature="e#36812#37004#0#PHP" expanded="false" />
-            <element signature="e#37120#37351#0#PHP" expanded="false" />
-            <element signature="e#37358#37376#0#PHP" expanded="false" />
-            <element signature="e#37710#37970#0#PHP" expanded="false" />
-            <element signature="e#38063#38331#0#PHP" expanded="false" />
-            <element signature="e#38416#38928#0#PHP" expanded="false" />
-            <element signature="e#39014#51224#0#PHP" expanded="false" />
-            <element signature="e#51310#51484#0#PHP" expanded="false" />
-            <element signature="e#51637#51846#0#PHP" expanded="false" />
-            <element signature="e#51919#52258#0#PHP" expanded="false" />
-            <element signature="e#52429#52673#0#PHP" expanded="false" />
-            <element signature="e#52823#52997#0#PHP" expanded="false" />
-            <element signature="e#53183#53392#0#PHP" expanded="false" />
-            <element signature="e#53640#53919#0#PHP" expanded="false" />
+            <element signature="e#33569#34354#0#PHP" expanded="false" />
+            <element signature="e#33589#33787#0#PHP" expanded="false" />
+            <element signature="e#34365#34722#0#PHP" expanded="false" />
+            <element signature="e#34737#35093#0#PHP" expanded="false" />
+            <element signature="e#34758#34925#0#PHP" expanded="false" />
+            <element signature="e#34990#35074#0#PHP" expanded="false" />
+            <element signature="e#35118#35622#0#PHP" expanded="false" />
+            <element signature="e#35139#35309#0#PHP" expanded="false" />
+            <element signature="e#35644#36024#0#PHP" expanded="false" />
+            <element signature="e#36026#36396#0#PHP" expanded="false" />
+            <element signature="e#36047#36210#0#PHP" expanded="false" />
+            <element signature="e#36552#36719#0#PHP" expanded="false" />
+            <element signature="e#36827#37019#0#PHP" expanded="false" />
+            <element signature="e#37135#37366#0#PHP" expanded="false" />
+            <element signature="e#37373#37391#0#PHP" expanded="false" />
+            <element signature="e#37725#37985#0#PHP" expanded="false" />
+            <element signature="e#38078#38346#0#PHP" expanded="false" />
+            <element signature="e#38431#38943#0#PHP" expanded="false" />
+            <element signature="e#39029#51239#0#PHP" expanded="false" />
+            <element signature="e#51336#51510#0#PHP" expanded="false" />
+            <element signature="e#51663#51872#0#PHP" expanded="false" />
+            <element signature="e#52039#52283#0#PHP" expanded="false" />
+            <element signature="e#52455#52699#0#PHP" expanded="false" />
+            <element signature="e#52849#53023#0#PHP" expanded="false" />
+            <element signature="e#53209#53418#0#PHP" expanded="false" />
+            <element signature="e#53666#53945#0#PHP" expanded="false" />
+            <element signature="e#54162#54301#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -377,26 +479,37 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#GetIterator#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
+            <element signature="e#30292#31227#0#PHP" expanded="false" />
             <element signature="n#FromRules#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
             <element signature="n#FromEvent#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
             <element signature="e#32876#32946#0#PHP" expanded="false" />
-            <element signature="e#33181#33555#0#PHP" expanded="false" />
-            <element signature="e#33557#34342#0#PHP" expanded="false" />
-            <element signature="e#36421#36705#0#PHP" expanded="false" />
-            <element signature="e#36812#37004#0#PHP" expanded="false" />
-            <element signature="e#37120#37351#0#PHP" expanded="false" />
-            <element signature="e#37358#37376#0#PHP" expanded="false" />
-            <element signature="e#37710#37970#0#PHP" expanded="false" />
-            <element signature="e#38063#38331#0#PHP" expanded="false" />
-            <element signature="e#38416#38928#0#PHP" expanded="false" />
-            <element signature="e#39014#51224#0#PHP" expanded="false" />
-            <element signature="e#51310#51484#0#PHP" expanded="false" />
-            <element signature="e#51637#51846#0#PHP" expanded="false" />
-            <element signature="e#51919#52258#0#PHP" expanded="false" />
-            <element signature="e#52429#52673#0#PHP" expanded="false" />
-            <element signature="e#52823#52997#0#PHP" expanded="false" />
-            <element signature="e#53183#53392#0#PHP" expanded="false" />
-            <element signature="e#53640#53919#0#PHP" expanded="false" />
+            <element signature="e#33569#34354#0#PHP" expanded="false" />
+            <element signature="e#33589#33787#0#PHP" expanded="false" />
+            <element signature="e#34365#34722#0#PHP" expanded="false" />
+            <element signature="e#34737#35093#0#PHP" expanded="false" />
+            <element signature="e#34758#34925#0#PHP" expanded="false" />
+            <element signature="e#34990#35074#0#PHP" expanded="false" />
+            <element signature="e#35118#35622#0#PHP" expanded="false" />
+            <element signature="e#35139#35309#0#PHP" expanded="false" />
+            <element signature="e#35644#36024#0#PHP" expanded="false" />
+            <element signature="e#36026#36396#0#PHP" expanded="false" />
+            <element signature="e#36047#36210#0#PHP" expanded="false" />
+            <element signature="e#36552#36719#0#PHP" expanded="false" />
+            <element signature="e#36827#37019#0#PHP" expanded="false" />
+            <element signature="e#37135#37366#0#PHP" expanded="false" />
+            <element signature="e#37373#37391#0#PHP" expanded="false" />
+            <element signature="e#37725#37985#0#PHP" expanded="false" />
+            <element signature="e#38078#38346#0#PHP" expanded="false" />
+            <element signature="e#38431#38943#0#PHP" expanded="false" />
+            <element signature="e#39029#51239#0#PHP" expanded="false" />
+            <element signature="e#51336#51510#0#PHP" expanded="false" />
+            <element signature="e#51663#51872#0#PHP" expanded="false" />
+            <element signature="e#52039#52283#0#PHP" expanded="false" />
+            <element signature="e#52455#52699#0#PHP" expanded="false" />
+            <element signature="e#52849#53023#0#PHP" expanded="false" />
+            <element signature="e#53209#53418#0#PHP" expanded="false" />
+            <element signature="e#53666#53945#0#PHP" expanded="false" />
+            <element signature="e#54162#54301#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -408,26 +521,37 @@
           <caret line="1421" column="30" lean-forward="false" selection-start-line="1421" selection-start-column="30" selection-end-line="1421" selection-end-column="30" />
           <folding>
             <element signature="n#GetIterator#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
+            <element signature="e#30292#31227#0#PHP" expanded="false" />
             <element signature="n#FromRules#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
             <element signature="n#FromEvent#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
             <element signature="e#32876#32946#0#PHP" expanded="false" />
-            <element signature="e#33181#33555#0#PHP" expanded="false" />
-            <element signature="e#33557#34342#0#PHP" expanded="false" />
-            <element signature="e#36421#36705#0#PHP" expanded="false" />
-            <element signature="e#36812#37004#0#PHP" expanded="false" />
-            <element signature="e#37120#37351#0#PHP" expanded="false" />
-            <element signature="e#37358#37376#0#PHP" expanded="false" />
-            <element signature="e#37710#37970#0#PHP" expanded="false" />
-            <element signature="e#38063#38331#0#PHP" expanded="false" />
-            <element signature="e#38416#38928#0#PHP" expanded="false" />
-            <element signature="e#39014#51224#0#PHP" expanded="false" />
-            <element signature="e#51310#51484#0#PHP" expanded="false" />
-            <element signature="e#51637#51846#0#PHP" expanded="false" />
-            <element signature="e#51919#52258#0#PHP" expanded="false" />
-            <element signature="e#52429#52673#0#PHP" expanded="false" />
-            <element signature="e#52823#52997#0#PHP" expanded="false" />
-            <element signature="e#53183#53392#0#PHP" expanded="false" />
-            <element signature="e#53640#53919#0#PHP" expanded="false" />
+            <element signature="e#33569#34354#0#PHP" expanded="false" />
+            <element signature="e#33589#33787#0#PHP" expanded="false" />
+            <element signature="e#34365#34722#0#PHP" expanded="false" />
+            <element signature="e#34737#35093#0#PHP" expanded="false" />
+            <element signature="e#34758#34925#0#PHP" expanded="false" />
+            <element signature="e#34990#35074#0#PHP" expanded="false" />
+            <element signature="e#35118#35622#0#PHP" expanded="false" />
+            <element signature="e#35139#35309#0#PHP" expanded="false" />
+            <element signature="e#35644#36024#0#PHP" expanded="false" />
+            <element signature="e#36026#36396#0#PHP" expanded="false" />
+            <element signature="e#36047#36210#0#PHP" expanded="false" />
+            <element signature="e#36552#36719#0#PHP" expanded="false" />
+            <element signature="e#36827#37019#0#PHP" expanded="false" />
+            <element signature="e#37135#37366#0#PHP" expanded="false" />
+            <element signature="e#37373#37391#0#PHP" expanded="false" />
+            <element signature="e#37725#37985#0#PHP" expanded="false" />
+            <element signature="e#38078#38346#0#PHP" expanded="false" />
+            <element signature="e#38431#38943#0#PHP" expanded="false" />
+            <element signature="e#39029#51239#0#PHP" expanded="false" />
+            <element signature="e#51336#51510#0#PHP" expanded="false" />
+            <element signature="e#51663#51872#0#PHP" expanded="false" />
+            <element signature="e#52039#52283#0#PHP" expanded="false" />
+            <element signature="e#52455#52699#0#PHP" expanded="false" />
+            <element signature="e#52849#53023#0#PHP" expanded="false" />
+            <element signature="e#53209#53418#0#PHP" expanded="false" />
+            <element signature="e#53666#53945#0#PHP" expanded="false" />
+            <element signature="e#54162#54301#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -439,26 +563,37 @@
           <caret line="1421" column="30" lean-forward="false" selection-start-line="1421" selection-start-column="30" selection-end-line="1421" selection-end-column="30" />
           <folding>
             <element signature="n#GetIterator#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
+            <element signature="e#30292#31227#0#PHP" expanded="false" />
             <element signature="n#FromRules#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
             <element signature="n#FromEvent#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
             <element signature="e#32876#32946#0#PHP" expanded="false" />
-            <element signature="e#33181#33555#0#PHP" expanded="false" />
-            <element signature="e#33557#34342#0#PHP" expanded="false" />
-            <element signature="e#36421#36705#0#PHP" expanded="false" />
-            <element signature="e#36812#37004#0#PHP" expanded="false" />
-            <element signature="e#37120#37351#0#PHP" expanded="false" />
-            <element signature="e#37358#37376#0#PHP" expanded="false" />
-            <element signature="e#37710#37970#0#PHP" expanded="false" />
-            <element signature="e#38063#38331#0#PHP" expanded="false" />
-            <element signature="e#38416#38928#0#PHP" expanded="false" />
-            <element signature="e#39014#51224#0#PHP" expanded="false" />
-            <element signature="e#51310#51484#0#PHP" expanded="false" />
-            <element signature="e#51637#51846#0#PHP" expanded="false" />
-            <element signature="e#51919#52258#0#PHP" expanded="false" />
-            <element signature="e#52429#52673#0#PHP" expanded="false" />
-            <element signature="e#52823#52997#0#PHP" expanded="false" />
-            <element signature="e#53183#53392#0#PHP" expanded="false" />
-            <element signature="e#53640#53919#0#PHP" expanded="false" />
+            <element signature="e#33569#34354#0#PHP" expanded="false" />
+            <element signature="e#33589#33787#0#PHP" expanded="false" />
+            <element signature="e#34365#34722#0#PHP" expanded="false" />
+            <element signature="e#34737#35093#0#PHP" expanded="false" />
+            <element signature="e#34758#34925#0#PHP" expanded="false" />
+            <element signature="e#34990#35074#0#PHP" expanded="false" />
+            <element signature="e#35118#35622#0#PHP" expanded="false" />
+            <element signature="e#35139#35309#0#PHP" expanded="false" />
+            <element signature="e#35644#36024#0#PHP" expanded="false" />
+            <element signature="e#36026#36396#0#PHP" expanded="false" />
+            <element signature="e#36047#36210#0#PHP" expanded="false" />
+            <element signature="e#36552#36719#0#PHP" expanded="false" />
+            <element signature="e#36827#37019#0#PHP" expanded="false" />
+            <element signature="e#37135#37366#0#PHP" expanded="false" />
+            <element signature="e#37373#37391#0#PHP" expanded="false" />
+            <element signature="e#37725#37985#0#PHP" expanded="false" />
+            <element signature="e#38078#38346#0#PHP" expanded="false" />
+            <element signature="e#38431#38943#0#PHP" expanded="false" />
+            <element signature="e#39029#51239#0#PHP" expanded="false" />
+            <element signature="e#51336#51510#0#PHP" expanded="false" />
+            <element signature="e#51663#51872#0#PHP" expanded="false" />
+            <element signature="e#52039#52283#0#PHP" expanded="false" />
+            <element signature="e#52455#52699#0#PHP" expanded="false" />
+            <element signature="e#52849#53023#0#PHP" expanded="false" />
+            <element signature="e#53209#53418#0#PHP" expanded="false" />
+            <element signature="e#53666#53945#0#PHP" expanded="false" />
+            <element signature="e#54162#54301#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -470,26 +605,37 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#GetIterator#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
+            <element signature="e#30292#31227#0#PHP" expanded="false" />
             <element signature="n#FromRules#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
             <element signature="n#FromEvent#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
             <element signature="e#32876#32946#0#PHP" expanded="false" />
-            <element signature="e#33181#33555#0#PHP" expanded="false" />
-            <element signature="e#33557#34342#0#PHP" expanded="false" />
-            <element signature="e#36421#36705#0#PHP" expanded="false" />
-            <element signature="e#36812#37004#0#PHP" expanded="false" />
-            <element signature="e#37120#37351#0#PHP" expanded="false" />
-            <element signature="e#37358#37376#0#PHP" expanded="false" />
-            <element signature="e#37710#37970#0#PHP" expanded="false" />
-            <element signature="e#38063#38331#0#PHP" expanded="false" />
-            <element signature="e#38416#38928#0#PHP" expanded="false" />
-            <element signature="e#39014#51224#0#PHP" expanded="false" />
-            <element signature="e#51310#51484#0#PHP" expanded="false" />
-            <element signature="e#51637#51846#0#PHP" expanded="false" />
-            <element signature="e#51919#52258#0#PHP" expanded="false" />
-            <element signature="e#52429#52673#0#PHP" expanded="false" />
-            <element signature="e#52823#52997#0#PHP" expanded="false" />
-            <element signature="e#53183#53392#0#PHP" expanded="false" />
-            <element signature="e#53640#53919#0#PHP" expanded="false" />
+            <element signature="e#33569#34354#0#PHP" expanded="false" />
+            <element signature="e#33589#33787#0#PHP" expanded="false" />
+            <element signature="e#34365#34722#0#PHP" expanded="false" />
+            <element signature="e#34737#35093#0#PHP" expanded="false" />
+            <element signature="e#34758#34925#0#PHP" expanded="false" />
+            <element signature="e#34990#35074#0#PHP" expanded="false" />
+            <element signature="e#35118#35622#0#PHP" expanded="false" />
+            <element signature="e#35139#35309#0#PHP" expanded="false" />
+            <element signature="e#35644#36024#0#PHP" expanded="false" />
+            <element signature="e#36026#36396#0#PHP" expanded="false" />
+            <element signature="e#36047#36210#0#PHP" expanded="false" />
+            <element signature="e#36552#36719#0#PHP" expanded="false" />
+            <element signature="e#36827#37019#0#PHP" expanded="false" />
+            <element signature="e#37135#37366#0#PHP" expanded="false" />
+            <element signature="e#37373#37391#0#PHP" expanded="false" />
+            <element signature="e#37725#37985#0#PHP" expanded="false" />
+            <element signature="e#38078#38346#0#PHP" expanded="false" />
+            <element signature="e#38431#38943#0#PHP" expanded="false" />
+            <element signature="e#39029#51239#0#PHP" expanded="false" />
+            <element signature="e#51336#51510#0#PHP" expanded="false" />
+            <element signature="e#51663#51872#0#PHP" expanded="false" />
+            <element signature="e#52039#52283#0#PHP" expanded="false" />
+            <element signature="e#52455#52699#0#PHP" expanded="false" />
+            <element signature="e#52849#53023#0#PHP" expanded="false" />
+            <element signature="e#53209#53418#0#PHP" expanded="false" />
+            <element signature="e#53666#53945#0#PHP" expanded="false" />
+            <element signature="e#54162#54301#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -501,26 +647,37 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#GetIterator#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
+            <element signature="e#30292#31227#0#PHP" expanded="false" />
             <element signature="n#FromRules#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
             <element signature="n#FromEvent#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
             <element signature="e#32876#32946#0#PHP" expanded="false" />
-            <element signature="e#33181#33555#0#PHP" expanded="false" />
-            <element signature="e#33557#34342#0#PHP" expanded="false" />
-            <element signature="e#36421#36705#0#PHP" expanded="false" />
-            <element signature="e#36812#37004#0#PHP" expanded="false" />
-            <element signature="e#37120#37351#0#PHP" expanded="false" />
-            <element signature="e#37358#37376#0#PHP" expanded="false" />
-            <element signature="e#37710#37970#0#PHP" expanded="false" />
-            <element signature="e#38063#38331#0#PHP" expanded="false" />
-            <element signature="e#38416#38928#0#PHP" expanded="false" />
-            <element signature="e#39014#51224#0#PHP" expanded="false" />
-            <element signature="e#51310#51484#0#PHP" expanded="false" />
-            <element signature="e#51637#51846#0#PHP" expanded="false" />
-            <element signature="e#51919#52258#0#PHP" expanded="false" />
-            <element signature="e#52429#52673#0#PHP" expanded="false" />
-            <element signature="e#52823#52997#0#PHP" expanded="false" />
-            <element signature="e#53183#53392#0#PHP" expanded="false" />
-            <element signature="e#53640#53919#0#PHP" expanded="false" />
+            <element signature="e#33569#34354#0#PHP" expanded="false" />
+            <element signature="e#33589#33787#0#PHP" expanded="false" />
+            <element signature="e#34365#34722#0#PHP" expanded="false" />
+            <element signature="e#34737#35093#0#PHP" expanded="false" />
+            <element signature="e#34758#34925#0#PHP" expanded="false" />
+            <element signature="e#34990#35074#0#PHP" expanded="false" />
+            <element signature="e#35118#35622#0#PHP" expanded="false" />
+            <element signature="e#35139#35309#0#PHP" expanded="false" />
+            <element signature="e#35644#36024#0#PHP" expanded="false" />
+            <element signature="e#36026#36396#0#PHP" expanded="false" />
+            <element signature="e#36047#36210#0#PHP" expanded="false" />
+            <element signature="e#36552#36719#0#PHP" expanded="false" />
+            <element signature="e#36827#37019#0#PHP" expanded="false" />
+            <element signature="e#37135#37366#0#PHP" expanded="false" />
+            <element signature="e#37373#37391#0#PHP" expanded="false" />
+            <element signature="e#37725#37985#0#PHP" expanded="false" />
+            <element signature="e#38078#38346#0#PHP" expanded="false" />
+            <element signature="e#38431#38943#0#PHP" expanded="false" />
+            <element signature="e#39029#51239#0#PHP" expanded="false" />
+            <element signature="e#51336#51510#0#PHP" expanded="false" />
+            <element signature="e#51663#51872#0#PHP" expanded="false" />
+            <element signature="e#52039#52283#0#PHP" expanded="false" />
+            <element signature="e#52455#52699#0#PHP" expanded="false" />
+            <element signature="e#52849#53023#0#PHP" expanded="false" />
+            <element signature="e#53209#53418#0#PHP" expanded="false" />
+            <element signature="e#53666#53945#0#PHP" expanded="false" />
+            <element signature="e#54162#54301#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -532,26 +689,37 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#GetIterator#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
+            <element signature="e#30292#31227#0#PHP" expanded="false" />
             <element signature="n#FromRules#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
             <element signature="n#FromEvent#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
             <element signature="e#32876#32946#0#PHP" expanded="false" />
-            <element signature="e#33181#33555#0#PHP" expanded="false" />
-            <element signature="e#33557#34342#0#PHP" expanded="false" />
-            <element signature="e#36421#36705#0#PHP" expanded="false" />
-            <element signature="e#36812#37004#0#PHP" expanded="false" />
-            <element signature="e#37120#37351#0#PHP" expanded="false" />
-            <element signature="e#37358#37376#0#PHP" expanded="false" />
-            <element signature="e#37710#37970#0#PHP" expanded="false" />
-            <element signature="e#38063#38331#0#PHP" expanded="false" />
-            <element signature="e#38416#38928#0#PHP" expanded="false" />
-            <element signature="e#39014#51224#0#PHP" expanded="false" />
-            <element signature="e#51310#51484#0#PHP" expanded="false" />
-            <element signature="e#51637#51846#0#PHP" expanded="false" />
-            <element signature="e#51919#52258#0#PHP" expanded="false" />
-            <element signature="e#52429#52673#0#PHP" expanded="false" />
-            <element signature="e#52823#52997#0#PHP" expanded="false" />
-            <element signature="e#53183#53392#0#PHP" expanded="false" />
-            <element signature="e#53640#53919#0#PHP" expanded="false" />
+            <element signature="e#33569#34354#0#PHP" expanded="false" />
+            <element signature="e#33589#33787#0#PHP" expanded="false" />
+            <element signature="e#34365#34722#0#PHP" expanded="false" />
+            <element signature="e#34737#35093#0#PHP" expanded="false" />
+            <element signature="e#34758#34925#0#PHP" expanded="false" />
+            <element signature="e#34990#35074#0#PHP" expanded="false" />
+            <element signature="e#35118#35622#0#PHP" expanded="false" />
+            <element signature="e#35139#35309#0#PHP" expanded="false" />
+            <element signature="e#35644#36024#0#PHP" expanded="false" />
+            <element signature="e#36026#36396#0#PHP" expanded="false" />
+            <element signature="e#36047#36210#0#PHP" expanded="false" />
+            <element signature="e#36552#36719#0#PHP" expanded="false" />
+            <element signature="e#36827#37019#0#PHP" expanded="false" />
+            <element signature="e#37135#37366#0#PHP" expanded="false" />
+            <element signature="e#37373#37391#0#PHP" expanded="false" />
+            <element signature="e#37725#37985#0#PHP" expanded="false" />
+            <element signature="e#38078#38346#0#PHP" expanded="false" />
+            <element signature="e#38431#38943#0#PHP" expanded="false" />
+            <element signature="e#39029#51239#0#PHP" expanded="false" />
+            <element signature="e#51336#51510#0#PHP" expanded="false" />
+            <element signature="e#51663#51872#0#PHP" expanded="false" />
+            <element signature="e#52039#52283#0#PHP" expanded="false" />
+            <element signature="e#52455#52699#0#PHP" expanded="false" />
+            <element signature="e#52849#53023#0#PHP" expanded="false" />
+            <element signature="e#53209#53418#0#PHP" expanded="false" />
+            <element signature="e#53666#53945#0#PHP" expanded="false" />
+            <element signature="e#54162#54301#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -563,26 +731,37 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#GetIterator#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
+            <element signature="e#30292#31227#0#PHP" expanded="false" />
             <element signature="n#FromRules#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
             <element signature="n#FromEvent#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
             <element signature="e#32876#32946#0#PHP" expanded="false" />
-            <element signature="e#33181#33555#0#PHP" expanded="false" />
-            <element signature="e#33557#34342#0#PHP" expanded="false" />
-            <element signature="e#36421#36705#0#PHP" expanded="false" />
-            <element signature="e#36812#37004#0#PHP" expanded="false" />
-            <element signature="e#37120#37351#0#PHP" expanded="false" />
-            <element signature="e#37358#37376#0#PHP" expanded="false" />
-            <element signature="e#37710#37970#0#PHP" expanded="false" />
-            <element signature="e#38063#38331#0#PHP" expanded="false" />
-            <element signature="e#38416#38928#0#PHP" expanded="false" />
-            <element signature="e#39014#51224#0#PHP" expanded="false" />
-            <element signature="e#51310#51484#0#PHP" expanded="false" />
-            <element signature="e#51637#51846#0#PHP" expanded="false" />
-            <element signature="e#51919#52258#0#PHP" expanded="false" />
-            <element signature="e#52429#52673#0#PHP" expanded="false" />
-            <element signature="e#52823#52997#0#PHP" expanded="false" />
-            <element signature="e#53183#53392#0#PHP" expanded="false" />
-            <element signature="e#53640#53919#0#PHP" expanded="false" />
+            <element signature="e#33569#34354#0#PHP" expanded="false" />
+            <element signature="e#33589#33787#0#PHP" expanded="false" />
+            <element signature="e#34365#34722#0#PHP" expanded="false" />
+            <element signature="e#34737#35093#0#PHP" expanded="false" />
+            <element signature="e#34758#34925#0#PHP" expanded="false" />
+            <element signature="e#34990#35074#0#PHP" expanded="false" />
+            <element signature="e#35118#35622#0#PHP" expanded="false" />
+            <element signature="e#35139#35309#0#PHP" expanded="false" />
+            <element signature="e#35644#36024#0#PHP" expanded="false" />
+            <element signature="e#36026#36396#0#PHP" expanded="false" />
+            <element signature="e#36047#36210#0#PHP" expanded="false" />
+            <element signature="e#36552#36719#0#PHP" expanded="false" />
+            <element signature="e#36827#37019#0#PHP" expanded="false" />
+            <element signature="e#37135#37366#0#PHP" expanded="false" />
+            <element signature="e#37373#37391#0#PHP" expanded="false" />
+            <element signature="e#37725#37985#0#PHP" expanded="false" />
+            <element signature="e#38078#38346#0#PHP" expanded="false" />
+            <element signature="e#38431#38943#0#PHP" expanded="false" />
+            <element signature="e#39029#51239#0#PHP" expanded="false" />
+            <element signature="e#51336#51510#0#PHP" expanded="false" />
+            <element signature="e#51663#51872#0#PHP" expanded="false" />
+            <element signature="e#52039#52283#0#PHP" expanded="false" />
+            <element signature="e#52455#52699#0#PHP" expanded="false" />
+            <element signature="e#52849#53023#0#PHP" expanded="false" />
+            <element signature="e#53209#53418#0#PHP" expanded="false" />
+            <element signature="e#53666#53945#0#PHP" expanded="false" />
+            <element signature="e#54162#54301#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -744,14 +923,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JavaScript/Common/RecurrenceRule.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="980" column="31" lean-forward="true" selection-start-line="980" selection-start-column="31" selection-end-line="980" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -770,32 +941,124 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PHP/debug.log" />
+    <entry file="file://$PROJECT_DIR$/PHP/Common/RecurrenceRuleParser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/Common/RecurrenceRule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3479">
+          <caret line="1192" column="5" lean-forward="true" selection-start-line="1192" selection-start-column="5" selection-end-line="1192" selection-end-column="5" />
+          <folding>
+            <element signature="e#377#447#0" expanded="false" />
+            <element signature="e#736#806#0" expanded="false" />
+            <element signature="e#951#1021#0" expanded="false" />
+            <element signature="n#!!block;n#RecurrenceRule#0" expanded="false" />
+            <element signature="e#1850#3564#0" expanded="false" />
+            <element signature="e#3613#3638#0" expanded="false" />
+            <element signature="e#3695#3721#0" expanded="false" />
+            <element signature="e#3768#3791#0" expanded="false" />
+            <element signature="e#3846#3870#0" expanded="false" />
+            <element signature="e#3921#3943#0" expanded="false" />
+            <element signature="e#4002#4025#0" expanded="false" />
+            <element signature="e#4075#4101#0" expanded="false" />
+            <element signature="e#4159#4238#0" expanded="false" />
+            <element signature="e#4285#4308#0" expanded="false" />
+            <element signature="e#4363#4455#0" expanded="false" />
+            <element signature="e#4502#4525#0" expanded="false" />
+            <element signature="e#4580#4604#0" expanded="false" />
+            <element signature="e#4607#4654#0" expanded="false" />
+            <element signature="e#4829#4855#0" expanded="false" />
+            <element signature="e#4913#4999#0" expanded="false" />
+            <element signature="e#5048#5073#0" expanded="false" />
+            <element signature="e#5130#5215#0" expanded="false" />
+            <element signature="e#5266#5293#0" expanded="false" />
+            <element signature="e#5352#5439#0" expanded="false" />
+            <element signature="e#5489#5515#0" expanded="false" />
+            <element signature="e#5573#5659#0" expanded="false" />
+            <element signature="e#5711#5739#0" expanded="false" />
+            <element signature="e#5799#5887#0" expanded="false" />
+            <element signature="e#5937#5963#0" expanded="false" />
+            <element signature="e#6021#6114#0" expanded="false" />
+            <element signature="e#6165#6192#0" expanded="false" />
+            <element signature="e#6251#6338#0" expanded="false" />
+            <element signature="e#6386#6410#0" expanded="false" />
+            <element signature="e#6466#6550#0" expanded="false" />
+            <element signature="e#6600#6626#0" expanded="false" />
+            <element signature="e#6684#6770#0" expanded="false" />
+            <element signature="e#6820#6846#0" expanded="false" />
+            <element signature="e#6904#6990#0" expanded="false" />
+            <element signature="n#!!block;n#_Log#0" expanded="false" />
+            <element signature="n#!!block;n#_CheckValues#0" expanded="false" />
+            <element signature="n#!!block;n#RecurrenceRule_FromString#0" expanded="false" />
+            <element signature="e#28232#28394#0" expanded="false" />
+            <element signature="e#28472#28659#0" expanded="false" />
+            <element signature="e#28756#28968#0" expanded="false" />
+            <element signature="e#29076#29331#0" expanded="false" />
+            <element signature="e#29405#29668#0" expanded="false" />
+            <element signature="e#29734#30239#0" expanded="false" />
+            <element signature="e#30306#42511#0" expanded="false" />
+            <element signature="e#42573#42752#0" expanded="false" />
+            <element signature="e#42835#43038#0" expanded="false" />
+            <element signature="e#43122#43360#0" expanded="false" />
+            <element signature="e#43449#43687#0" expanded="false" />
+            <element signature="e#43771#43939#0" expanded="false" />
+            <element signature="e#43946#44026#0" expanded="false" />
+            <element signature="e#44382#44655#0" expanded="false" />
+            <element signature="e#44754#44887#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHP/Common/ApiBase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PHP/Common/RecurrenceRule.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="2076" column="11" lean-forward="true" selection-start-line="2076" selection-start-column="11" selection-end-line="2076" selection-end-column="11" />
+        <state relative-caret-position="336">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding>
             <element signature="n#GetIterator#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
+            <element signature="e#30292#31227#0#PHP" expanded="false" />
             <element signature="n#FromRules#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
             <element signature="n#FromEvent#0;n#RecurrenceRule#0;n#!!top" expanded="false" />
             <element signature="e#32876#32946#0#PHP" expanded="false" />
-            <element signature="e#33181#33555#0#PHP" expanded="false" />
-            <element signature="e#33557#34342#0#PHP" expanded="false" />
-            <element signature="e#36421#36705#0#PHP" expanded="false" />
-            <element signature="e#36812#37004#0#PHP" expanded="false" />
-            <element signature="e#37120#37351#0#PHP" expanded="false" />
-            <element signature="e#37358#37376#0#PHP" expanded="false" />
-            <element signature="e#37710#37970#0#PHP" expanded="false" />
-            <element signature="e#38063#38331#0#PHP" expanded="false" />
-            <element signature="e#38416#38928#0#PHP" expanded="false" />
-            <element signature="e#39014#51224#0#PHP" expanded="false" />
-            <element signature="e#51310#51484#0#PHP" expanded="false" />
-            <element signature="e#51637#51846#0#PHP" expanded="false" />
-            <element signature="e#51919#52258#0#PHP" expanded="false" />
-            <element signature="e#52429#52673#0#PHP" expanded="false" />
-            <element signature="e#52823#52997#0#PHP" expanded="false" />
-            <element signature="e#53183#53392#0#PHP" expanded="false" />
-            <element signature="e#53640#53919#0#PHP" expanded="false" />
+            <element signature="e#33569#34354#0#PHP" expanded="false" />
+            <element signature="e#33589#33787#0#PHP" expanded="false" />
+            <element signature="e#34365#34722#0#PHP" expanded="false" />
+            <element signature="e#34737#35093#0#PHP" expanded="false" />
+            <element signature="e#34758#34925#0#PHP" expanded="false" />
+            <element signature="e#34990#35074#0#PHP" expanded="false" />
+            <element signature="e#35118#35622#0#PHP" expanded="false" />
+            <element signature="e#35139#35309#0#PHP" expanded="false" />
+            <element signature="e#35644#36024#0#PHP" expanded="false" />
+            <element signature="e#36026#36396#0#PHP" expanded="false" />
+            <element signature="e#36047#36210#0#PHP" expanded="false" />
+            <element signature="e#36552#36719#0#PHP" expanded="false" />
+            <element signature="e#36827#37019#0#PHP" expanded="false" />
+            <element signature="e#37135#37366#0#PHP" expanded="false" />
+            <element signature="e#37373#37391#0#PHP" expanded="false" />
+            <element signature="e#37725#37985#0#PHP" expanded="false" />
+            <element signature="e#38078#38346#0#PHP" expanded="false" />
+            <element signature="e#38431#38943#0#PHP" expanded="false" />
+            <element signature="e#39029#51239#0#PHP" expanded="false" />
+            <element signature="e#51336#51510#0#PHP" expanded="false" />
+            <element signature="e#51663#51872#0#PHP" expanded="false" />
+            <element signature="e#52039#52283#0#PHP" expanded="false" />
+            <element signature="e#52455#52699#0#PHP" expanded="false" />
+            <element signature="e#52849#53023#0#PHP" expanded="false" />
+            <element signature="e#53209#53418#0#PHP" expanded="false" />
+            <element signature="e#53666#53945#0#PHP" expanded="false" />
+            <element signature="e#54162#54301#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
